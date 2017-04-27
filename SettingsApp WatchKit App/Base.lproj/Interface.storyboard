@@ -157,6 +157,26 @@
                                                     </label>
                                                 </items>
                                             </group>
+                                            <label alignment="left" text="MICKEY MOUSE AND MINNIE MOUSE" numberOfLines="2" id="5V4-5n-TaK">
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                            <group width="1" height="30" alignment="left" radius="6" id="dJP-Yg-WSn">
+                                                <items>
+                                                    <group width="4" alignment="left" id="iyD-lr-4Ec"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Tap to Speak Time" textAlignment="left" numberOfLines="2" id="wyg-X5-nUv">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="9Hm-b5-B1K">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <label alignment="center" verticalAlignment="center" text="When this is on, tapping Mickey Mouse or Minney Mouse will announce the current time." textAlignment="left" numberOfLines="0" id="6Xw-Pi-zRj">
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
                                         </items>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
