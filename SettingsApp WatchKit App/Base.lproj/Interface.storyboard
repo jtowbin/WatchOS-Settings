@@ -108,6 +108,31 @@
                                                 </items>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </group>
+                                            <label alignment="left" text="HAPTIC STRENGTH" id="Tfs-6b-BP7">
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                            <slider width="1" height="30" alignment="left" value="2" maximum="2" steps="2" id="hp3-Ci-Tdg"/>
+                                            <group width="1" height="30" alignment="left" radius="6" id="EGY-UK-UpC">
+                                                <items>
+                                                    <group width="4" alignment="left" id="WN1-P9-t6a"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Prominent Haptic" textAlignment="left" numberOfLines="2" id="NCI-A5-l5R">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="6Vr-TN-Ofd">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="0.94999999999999996" alignment="left" id="Hhi-36-IEL">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="When this is on, Apple Watch will play a prominent haptic to pre-announce some common alerts." textAlignment="left" numberOfLines="0" id="Enj-IF-Ojf">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                            </group>
                                         </items>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
