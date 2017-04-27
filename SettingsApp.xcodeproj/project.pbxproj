@@ -38,6 +38,7 @@
 		CCC250261EB1FBAE00F5A488 /* DNDRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */; };
 		CCC250281EB200CE00F5A488 /* BrightnessRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */; };
 		CCC2502A1EB2086A00F5A488 /* SoundRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250291EB2086A00F5A488 /* SoundRowController.swift */; };
+		CCC2502C1EB2639100F5A488 /* PasscodeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2502B1EB2639100F5A488 /* PasscodeRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNDRowController.swift; sourceTree = "<group>"; };
 		CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightnessRowController.swift; sourceTree = "<group>"; };
 		CCC250291EB2086A00F5A488 /* SoundRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRowController.swift; sourceTree = "<group>"; };
+		CCC2502B1EB2639100F5A488 /* PasscodeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */,
 				CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */,
 				CCC250291EB2086A00F5A488 /* SoundRowController.swift */,
+				CCC2502B1EB2639100F5A488 /* PasscodeRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				CCC250261EB1FBAE00F5A488 /* DNDRowController.swift in Sources */,
 				CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */,
 				CC92236E1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift in Sources */,
+				CCC2502C1EB2639100F5A488 /* PasscodeRowController.swift in Sources */,
 				CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */,
 				CC9223671EB0BB7900EE4F59 /* AboutInterfaceController.swift in Sources */,
 				CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */,

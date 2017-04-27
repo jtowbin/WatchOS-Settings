@@ -126,6 +126,8 @@ class RootPageSource {
     
     class func getPasscodePage() -> WatchSettingsPage {
         let passcodePage = WatchSettingsPage(title: "Passcode", cell: .SARowController, optIconName: "lock")
+        let passButton = WatchSettingsPage(title: "Passcode", cell: .PasscodeRowController, optIconName: nil)
+        passcodePage.subPages = [passButton]
         
         return passcodePage
     }

@@ -189,6 +189,9 @@ class GenericTableInterfaceController: WKInterfaceController {
             case .SoundRowController:
                 let row = tableController.rowController(at: index) as! SoundRowController
                 break
+            case .PasscodeRowController:
+                let row = tableController.rowController(at: index) as! PasscodeRowController
+                break
             }
             
             

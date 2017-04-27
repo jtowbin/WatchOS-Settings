@@ -80,6 +80,30 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="PasscodeRowController" id="Dr9-Qh-2xD" customClass="PasscodeRowController" customModule="SettingsApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="iwk-mD-pY6">
+                                        <items>
+                                            <group width="1" height="30" alignment="left" radius="6" id="lPN-f5-OAF">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="  Turn Passcode On" textAlignment="left" id="h6m-N9-VoW">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="Fpd-gr-rdN">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="  Change passcode" textAlignment="left" id="Cc2-lx-8QS">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="SoundRowController" selectable="NO" id="sRp-Zn-JaA" customClass="SoundRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="uXx-hh-7Eh">
                                         <items>
