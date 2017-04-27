@@ -146,6 +146,53 @@
                                         <outlet property="labelContent" destination="3FZ-0x-emY" id="LDF-WZ-0m4"/>
                                     </connections>
                                 </tableRow>
+                                <tableRow identifier="SpinnerButtonRow" id="dCc-ZB-BAZ" customClass="SpinnerButtonRow" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="Ubk-iH-0RO">
+                                        <items>
+                                            <group width="1" alignment="left" id="MiY-uS-Nnf">
+                                                <items>
+                                                    <label alignment="left" text="DEVICES" id="XWG-4N-ByX">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                    <imageView width="8" height="8" alignment="left" verticalAlignment="center" image="spinner" contentMode="scaleAspectFill" id="JBw-eu-8eR"/>
+                                                </items>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="4" id="dox-MN-FtE">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="   Searching..." textAlignment="left" id="Bc9-0z-8dG">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="20" alignment="left" id="eqi-jl-1K6"/>
+                                            <group width="1" alignment="left" id="Mpp-EA-pxI">
+                                                <items>
+                                                    <label alignment="left" text="HEALTH DEVICES" id="clw-1K-UoP">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                    <imageView width="8" height="8" alignment="left" verticalAlignment="center" image="spinner" contentMode="scaleAspectFill" id="DNt-hU-AG4"/>
+                                                </items>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="4" id="zmf-fb-Cgh">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="   Searching..." textAlignment="left" id="TUt-6q-0gL">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="20" alignment="left" id="YaE-Oa-EZY"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="headerSpinner" destination="JBw-eu-8eR" id="IOf-7r-60v"/>
+                                        <outlet property="labelContent" destination="XWG-4N-ByX" id="Onf-Xc-2my"/>
+                                    </connections>
+                                </tableRow>
                             </items>
                         </table>
                     </items>

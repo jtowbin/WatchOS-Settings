@@ -34,6 +34,7 @@
 		CCC00E7C1EAEC78400B442DF /* DetailRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */; };
 		CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */; };
 		CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */; };
+		CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRowController.swift; sourceTree = "<group>"; };
 		CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelRowController.swift; sourceTree = "<group>"; };
 		CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowController.swift; sourceTree = "<group>"; };
+		CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerButtonRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				CCC00E791EAEC4C900B442DF /* SARowController.swift */,
 				CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */,
 				CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */,
+				CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				CC92236C1EB0DD5C00EE4F59 /* RootPageSource.swift in Sources */,
 				CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */,
 				BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */,
+				CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

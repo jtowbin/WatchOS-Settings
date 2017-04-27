@@ -41,7 +41,9 @@ class RootPageSource {
     
     class func getBluetoothPage() -> WatchSettingsPage {
         let btPage = WatchSettingsPage(title: "Bluetooth", cell: .SARowController, optIconName: "bluetooth")
-        
+        let btButton = WatchSettingsPage(title: "DEVICES", cell: .SpinnerButtonRow, optIconName: nil)
+        btButton.subPages = nil
+        btPage.subPages = [btButton]
         return btPage
     }
     

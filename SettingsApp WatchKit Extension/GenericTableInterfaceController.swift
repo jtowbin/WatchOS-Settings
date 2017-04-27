@@ -175,6 +175,11 @@ class GenericTableInterfaceController: WKInterfaceController {
                 let row = tableController.rowController(at: index) as! SwitchRowController
                 row.labelContent.setText(page.pageTitle)
                 break
+            case .SpinnerButtonRow:
+                let row = tableController.rowController(at: index) as! SpinnerButtonRow
+                row.labelContent.setText(page.pageTitle)
+                row.headerSpinner.setImageNamed("spinner")
+                break
             }
             
         }
