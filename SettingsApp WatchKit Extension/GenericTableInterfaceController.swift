@@ -119,6 +119,14 @@ class GenericTableInterfaceController: WKInterfaceController {
             return
         }
         
+        if rowIndex < (pageContext?.subPages?.count)! {
+            if let sp = pageContext?.subPages?[rowIndex] {
+                if sp.subPages == nil {
+                    return
+                }
+            }
+        }
+        
         pushController(withName: "GenericTableInterfaceController", context: pageContext!.subPages?[rowIndex])
         
         switch rowIndex {
