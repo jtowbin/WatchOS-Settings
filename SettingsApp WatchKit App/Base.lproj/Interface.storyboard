@@ -80,6 +80,38 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="SoundRowController" selectable="NO" id="sRp-Zn-JaA" customClass="SoundRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="uXx-hh-7Eh">
+                                        <items>
+                                            <label alignment="left" text="ALERT VOLUME" id="blb-fG-7U4">
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                            <slider width="1" height="30" alignment="left" continuous="YES" value="15" maximum="17" steps="16" id="Hkk-Jx-oI2"/>
+                                            <group width="1" height="30" alignment="left" radius="6" id="NCS-Dq-6cm">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="   Silent Mode" textAlignment="left" id="KEH-Kv-RzP">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" minimumScaleFactor="0.40000000000000002" id="ikp-R0-pGK">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="0.94999999999999996" alignment="center" radius="6" id="nlF-En-Wbf">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="Silent mode will not silence alarms and timers when Apple Watch is charging. " textAlignment="left" numberOfLines="0" id="bud-00-ryX">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="BrightnessRowController" id="59l-S1-M2e" customClass="BrightnessRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="2rq-Eg-c3W">
                                         <items>
@@ -102,6 +134,9 @@
                                                     <label alignment="left" verticalAlignment="center" text="  Bold text" textAlignment="left" id="mlr-LI-EUR">
                                                         <fontDescription key="font" type="system" pointSize="14"/>
                                                     </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" minimumScaleFactor="0.40000000000000002" id="kp7-4c-zma">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
                                                 </items>
                                                 <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </group>

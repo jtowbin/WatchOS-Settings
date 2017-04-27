@@ -186,7 +186,11 @@ class GenericTableInterfaceController: WKInterfaceController {
             case .BrightnessRowController:
                 let row = tableController.rowController(at: index) as! BrightnessRowController
                 break
+            case .SoundRowController:
+                let row = tableController.rowController(at: index) as! SoundRowController
+                break
             }
+            
             
         }
         

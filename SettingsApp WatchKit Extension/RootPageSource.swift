@@ -119,7 +119,8 @@ class RootPageSource {
     
     class func getHapticsPage() -> WatchSettingsPage {
         let hapticsPage = WatchSettingsPage(title: "Sound & Haptics", cell: .SARowController, optIconName: "sound")
-        
+        let soundButton = WatchSettingsPage(title: "Sound & Haptics", cell: .SoundRowController, optIconName: nil)
+        hapticsPage.subPages = [soundButton]
         return hapticsPage
     }
     
