@@ -80,6 +80,9 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="AboutPageRowController" id="C66-eV-5rm">
+                                    <group key="rootItem" width="1" alignment="left" id="MmE-oT-bPu"/>
+                                </tableRow>
                                 <tableRow identifier="TimeTableRowController" id="P3u-Si-5xM" customClass="TimeTableRowController" customModule="SettingsApp_WatchKit_App" customModuleProvider="target">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="eFc-CU-WI9">
                                         <items>
@@ -266,17 +269,17 @@
                                     </connections>
                                 </tableRow>
                                 <tableRow identifier="DetailRowController" id="psk-7X-XRZ" customClass="DetailRowController" customModule="SettingsApp_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="dkg-v9-GZP">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="dkg-v9-GZP">
                                         <items>
                                             <label alignment="left" text="Label" id="FgH-vb-cpv">
                                                 <fontDescription key="font" type="system" pointSize="16"/>
                                             </label>
-                                            <label alignment="left" text="Label" id="NSF-yM-pbF">
+                                            <label alignment="left" text="Label" numberOfLines="0" id="NSF-yM-pbF">
                                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="font" type="system" pointSize="12"/>
                                             </label>
                                         </items>
-                                        <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="labelContent" destination="FgH-vb-cpv" id="isE-nm-nZ6"/>
