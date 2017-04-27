@@ -49,7 +49,8 @@ class RootPageSource {
     
     class func getDNDPage() -> WatchSettingsPage {
         let dndPage = WatchSettingsPage(title: "Do Not Disturb", cell: .SARowController, optIconName: "dnd")
-        
+        let dndButton = WatchSettingsPage(title: "Do Not Disturb", cell: .DNDRowController , optIconName: nil)
+        dndPage.subPages = [dndButton]
         return dndPage
     }
     

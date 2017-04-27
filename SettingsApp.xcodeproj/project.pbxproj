@@ -35,6 +35,7 @@
 		CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */; };
 		CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */; };
 		CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */; };
+		CCC250261EB1FBAE00F5A488 /* DNDRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelRowController.swift; sourceTree = "<group>"; };
 		CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowController.swift; sourceTree = "<group>"; };
 		CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerButtonRow.swift; sourceTree = "<group>"; };
+		CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNDRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */,
 				CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */,
 				CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */,
+				CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				CCC00E7A1EAEC4C900B442DF /* SARowController.swift in Sources */,
 				CC9223731EB0F47300EE4F59 /* AboutPageSource.swift in Sources */,
 				CC92236A1EB0DC7100EE4F59 /* WatchSettingsPage.swift in Sources */,
+				CCC250261EB1FBAE00F5A488 /* DNDRowController.swift in Sources */,
 				CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */,
 				CC92236E1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift in Sources */,
 				CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */,

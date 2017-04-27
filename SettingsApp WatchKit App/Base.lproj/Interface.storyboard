@@ -24,7 +24,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-378" y="348"/>
+            <point key="canvasLocation" x="-469" y="335"/>
         </scene>
         <!--InterfaceController-->
         <scene sceneID="aou-V4-d1y">
@@ -134,11 +134,11 @@
                                 <tableRow identifier="SwitchRowController" selectable="NO" id="tMk-3H-7JQ" customClass="SwitchRowController" customModule="SettingsApp_WatchKit_App" customModuleProvider="target">
                                     <group key="rootItem" width="1" height="38" alignment="left" id="AHh-cu-cgg">
                                         <items>
-                                            <switch width="38" height="20" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="AQS-fW-3bS">
+                                            <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="AQS-fW-3bS">
                                                 <fontDescription key="font" type="system" pointSize="16"/>
                                             </switch>
                                             <label alignment="left" verticalAlignment="center" text="Airplane Mode" textAlignment="left" id="3FZ-0x-emY">
-                                                <fontDescription key="font" type="system" pointSize="16"/>
+                                                <fontDescription key="font" type="system" pointSize="12"/>
                                             </label>
                                         </items>
                                     </group>
@@ -192,6 +192,33 @@
                                         <outlet property="headerSpinner" destination="JBw-eu-8eR" id="IOf-7r-60v"/>
                                         <outlet property="labelContent" destination="XWG-4N-ByX" id="Onf-Xc-2my"/>
                                     </connections>
+                                </tableRow>
+                                <tableRow identifier="DNDRowController" id="t0f-r2-mdi" customClass="DNDRowController" customModule="SettingsApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="6" id="nFs-dG-l7t">
+                                        <items>
+                                            <group width="1" height="30" alignment="left" radius="6" id="mLt-ex-xxB">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="  Do not disturb" textAlignment="left" id="BZs-Gy-5U9">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <switch width="30" height="17" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" minimumScaleFactor="0.40000000000000002" id="TIf-ua-eUD">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="0.93999999999999995" alignment="center" radius="0.0" id="Zdd-8d-mIl">
+                                                <items>
+                                                    <label width="1" alignment="left" numberOfLines="0" id="emB-5G-1ab">
+                                                        <string key="text">When Do Not Disturb is enabled, calls and alerts will be silenced, and a moon icon will appear at the top of apps and watch faces. </string>
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>

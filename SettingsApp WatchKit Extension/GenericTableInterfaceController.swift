@@ -180,6 +180,10 @@ class GenericTableInterfaceController: WKInterfaceController {
                 row.labelContent.setText(page.pageTitle)
                 row.headerSpinner.setImageNamed("spinner")
                 break
+            case .DNDRowController:
+                let row = tableController.rowController(at: index) as! DNDRowController
+                
+                break
             }
             
         }

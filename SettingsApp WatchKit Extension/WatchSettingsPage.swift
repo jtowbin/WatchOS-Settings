@@ -26,6 +26,7 @@ class WatchSettingsPage {
         case LabelRowController
         case SwitchRowController
         case SpinnerButtonRow
+        case DNDRowController
     }
     
     class func cellTypeToString(type: WatchSettingsCellType) -> String {
@@ -40,6 +41,8 @@ class WatchSettingsPage {
             return "SwitchRowController"
         case .SpinnerButtonRow:
             return "SpinnerButtonRow"
+        case .DNDRowController:
+            return "DNDRowController"
         
         }
     }
