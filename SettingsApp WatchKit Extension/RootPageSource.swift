@@ -90,6 +90,8 @@ class RootPageSource {
         let generalPage = WatchSettingsPage(title: "General", cell: .SARowController, optIconName: "general")
         
         let oriPage = WatchSettingsPage(title: "Orientation", cell: .LabelRowController, optIconName: nil)
+        let oriButton = WatchSettingsPage(title: "Orientation", cell: .OrientationRowController, optIconName: nil)
+        oriPage.subPages = [oriButton]
         
         let wakePage = WatchSettingsPage(title: "Wake Screen", cell: .LabelRowController, optIconName: nil)
         

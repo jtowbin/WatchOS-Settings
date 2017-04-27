@@ -21,6 +21,7 @@
 		BF6F14E31E4F3E240018D56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6F14E21E4F3E240018D56E /* Assets.xcassets */; };
 		BF6F14F31E4F48190018D56E /* ConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F14F21E4F48190018D56E /* ConnectivityHandler.swift */; };
 		CC17CE891EB26A9C00FB3352 /* TimeTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE881EB26A9C00FB3352 /* TimeTableRowController.swift */; };
+		CC17CE8B1EB279A500FB3352 /* OrientationRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE8A1EB279A500FB3352 /* OrientationRowController.swift */; };
 		CC9223611EB0AE5F00EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
 		CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */; };
 		CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
@@ -103,6 +104,7 @@
 		BF6F14E41E4F3E240018D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6F14F21E4F48190018D56E /* ConnectivityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityHandler.swift; sourceTree = "<group>"; };
 		CC17CE881EB26A9C00FB3352 /* TimeTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableRowController.swift; sourceTree = "<group>"; };
+		CC17CE8A1EB279A500FB3352 /* OrientationRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationRowController.swift; sourceTree = "<group>"; };
 		CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataModel.swift; path = SettingsApp/AboutDataModel.swift; sourceTree = "<group>"; };
 		CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataStore.swift; path = "SettingsApp WatchKit Extension/AboutDataStore.swift"; sourceTree = "<group>"; };
 		CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInterfaceController.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */,
 				CCC250291EB2086A00F5A488 /* SoundRowController.swift */,
 				CCC2502B1EB2639100F5A488 /* PasscodeRowController.swift */,
+				CC17CE8A1EB279A500FB3352 /* OrientationRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				CC9223731EB0F47300EE4F59 /* AboutPageSource.swift in Sources */,
 				CC17CE891EB26A9C00FB3352 /* TimeTableRowController.swift in Sources */,
 				CC92236A1EB0DC7100EE4F59 /* WatchSettingsPage.swift in Sources */,
+				CC17CE8B1EB279A500FB3352 /* OrientationRowController.swift in Sources */,
 				CCC250261EB1FBAE00F5A488 /* DNDRowController.swift in Sources */,
 				CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */,
 				CC92236E1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift in Sources */,

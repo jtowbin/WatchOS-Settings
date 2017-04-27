@@ -80,6 +80,66 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="OrientationRowController" id="E0o-HU-DDe" customClass="OrientationRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="RcP-St-ZL8">
+                                        <items>
+                                            <label alignment="left" text="WRIST" id="9dr-kU-7WA">
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                            <group width="1" alignment="left" layout="vertical" radius="6" id="bbd-c2-s9B">
+                                                <items>
+                                                    <group width="1" height="24" alignment="left" id="vEp-il-1La">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="  Left" textAlignment="left" id="lbk-AW-iBa">
+                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                    <group width="1" height="2" alignment="left" id="K4Y-Fd-zXQ">
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </group>
+                                                    <group width="1" height="24" alignment="left" id="5Ob-50-sjI">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="  Right" textAlignment="left" id="GDp-tB-C1W">
+                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="20" alignment="left" id="FC2-G2-Eaw"/>
+                                            <label alignment="left" text="DIGITAL CROWN" id="5KM-bp-ijF">
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                            <group width="1" alignment="left" layout="vertical" radius="6" id="R5h-A2-mZD">
+                                                <items>
+                                                    <group width="1" height="24" alignment="left" id="zFN-OZ-Q5S">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="  Left" textAlignment="left" id="iD2-vc-O9b">
+                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                    <group width="1" height="2" alignment="left" id="04t-z8-6Fv">
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </group>
+                                                    <group width="1" height="24" alignment="left" id="dwL-uG-xHq">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="  Right" textAlignment="left" id="4PP-ze-SNX">
+                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="AboutPageRowController" id="C66-eV-5rm">
                                     <group key="rootItem" width="1" alignment="left" id="MmE-oT-bPu"/>
                                 </tableRow>

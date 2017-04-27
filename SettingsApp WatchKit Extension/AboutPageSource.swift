@@ -45,4 +45,5 @@ class AboutPageSource: NSObject {
         
         return aboutPage
     }
+    
 }

@@ -203,6 +203,9 @@ class GenericTableInterfaceController: WKInterfaceController {
             case .TimeTableRowController:
                 let row = tableController.rowController(at: index) as! TimeTableRowController
                 break
+            case .OrientationRowController:
+                let row = tableController.rowController(at: index) as! OrientationRowController
+                break
             }
             
             
