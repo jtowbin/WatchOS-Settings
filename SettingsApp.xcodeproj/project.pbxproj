@@ -36,6 +36,7 @@
 		CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */; };
 		CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */; };
 		CCC250261EB1FBAE00F5A488 /* DNDRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */; };
+		CCC250281EB200CE00F5A488 /* BrightnessRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowController.swift; sourceTree = "<group>"; };
 		CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerButtonRow.swift; sourceTree = "<group>"; };
 		CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNDRowController.swift; sourceTree = "<group>"; };
+		CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightnessRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */,
 				CCC250231EB1F21200F5A488 /* SpinnerButtonRow.swift */,
 				CCC250251EB1FBAE00F5A488 /* DNDRowController.swift */,
+				CCC250271EB200CE00F5A488 /* BrightnessRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */,
 				BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */,
 				CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */,
+				CCC250281EB200CE00F5A488 /* BrightnessRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

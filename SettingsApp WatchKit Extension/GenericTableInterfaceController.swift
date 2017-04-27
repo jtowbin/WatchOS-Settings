@@ -182,7 +182,9 @@ class GenericTableInterfaceController: WKInterfaceController {
                 break
             case .DNDRowController:
                 let row = tableController.rowController(at: index) as! DNDRowController
-                
+                break
+            case .BrightnessRowController:
+                let row = tableController.rowController(at: index) as! BrightnessRowController
                 break
             }
             

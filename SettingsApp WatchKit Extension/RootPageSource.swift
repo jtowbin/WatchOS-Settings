@@ -111,7 +111,8 @@ class RootPageSource {
     
     class func getBrightnessPage() -> WatchSettingsPage {
         let brightnessPage = WatchSettingsPage(title: "Brightness & Text Size", cell: .SARowController, optIconName: "brightness")
-        
+        let brButton = WatchSettingsPage(title: "Brightness & Text Size", cell: .BrightnessRowController, optIconName: nil)
+        brightnessPage.subPages = [brButton]
         
         return brightnessPage
     }
