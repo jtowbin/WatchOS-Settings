@@ -111,6 +111,7 @@
                                                 <fontDescription key="font" type="system" pointSize="12"/>
                                             </label>
                                         </items>
+                                        <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="labelContent" destination="FgH-vb-cpv" id="isE-nm-nZ6"/>
@@ -124,9 +125,25 @@
                                                 <fontDescription key="font" type="system" pointSize="16"/>
                                             </label>
                                         </items>
+                                        <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="labelContent" destination="h3l-X6-bMk" id="EsJ-SG-6gM"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="SwitchRowController" selectable="NO" id="tMk-3H-7JQ" customClass="SwitchRowController" customModule="SettingsApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="38" alignment="left" id="AHh-cu-cgg">
+                                        <items>
+                                            <switch width="38" height="20" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="AQS-fW-3bS">
+                                                <fontDescription key="font" type="system" pointSize="16"/>
+                                            </switch>
+                                            <label alignment="left" verticalAlignment="center" text="Airplane Mode" textAlignment="left" id="3FZ-0x-emY">
+                                                <fontDescription key="font" type="system" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="labelContent" destination="3FZ-0x-emY" id="LDF-WZ-0m4"/>
                                     </connections>
                                 </tableRow>
                             </items>

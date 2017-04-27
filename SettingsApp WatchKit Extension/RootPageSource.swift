@@ -32,6 +32,9 @@ class RootPageSource {
     
     class func getAirplaneModePage() -> WatchSettingsPage {
         let apmPage = WatchSettingsPage(title: "Airplane Mode", cell: .SARowController, optIconName: "airplane")
+        let apmButton = WatchSettingsPage(title: "Airplane Mode", cell: .SwitchRowController, optIconName: nil)
+        apmPage.subPages = [apmButton]
+        apmButton.subPages = nil
         
         return apmPage
     }

@@ -171,6 +171,10 @@ class GenericTableInterfaceController: WKInterfaceController {
                 row.labelContent.setText(page.pageTitle)
                 row.imageContent.setImage(UIImage(named: page.optionalIconName!))
                 break
+            case .SwitchRowController:
+                let row = tableController.rowController(at: index) as! SwitchRowController
+                row.labelContent.setText(page.pageTitle)
+                break
             }
             
         }

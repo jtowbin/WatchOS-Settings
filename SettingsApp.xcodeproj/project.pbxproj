@@ -33,6 +33,7 @@
 		CCC00E7A1EAEC4C900B442DF /* SARowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00E791EAEC4C900B442DF /* SARowController.swift */; };
 		CCC00E7C1EAEC78400B442DF /* DetailRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */; };
 		CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */; };
+		CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		CCC00E791EAEC4C900B442DF /* SARowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SARowController.swift; sourceTree = "<group>"; };
 		CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRowController.swift; sourceTree = "<group>"; };
 		CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelRowController.swift; sourceTree = "<group>"; };
+		CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,15 +176,13 @@
 		BF6F14DD1E4F3E240018D56E /* SettingsApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CCC250201EB1E03D00F5A488 /* TableRows */,
 				CC9223711EB0F41A00EE4F59 /* Page sources */,
 				BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */,
 				BF6F14E01E4F3E240018D56E /* ExtensionDelegate.swift */,
 				BF6F14E21E4F3E240018D56E /* Assets.xcassets */,
 				BF6F14E41E4F3E240018D56E /* Info.plist */,
 				CCC00E771EAEC3A600B442DF /* GenericTableInterfaceController.swift */,
-				CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */,
-				CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */,
-				CCC00E791EAEC4C900B442DF /* SARowController.swift */,
 				CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */,
 				CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */,
 				CC92236D1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift */,
@@ -206,6 +206,17 @@
 				CC9223721EB0F47300EE4F59 /* AboutPageSource.swift */,
 			);
 			name = "Page sources";
+			sourceTree = "<group>";
+		};
+		CCC250201EB1E03D00F5A488 /* TableRows */ = {
+			isa = PBXGroup;
+			children = (
+				CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */,
+				CCC00E791EAEC4C900B442DF /* SARowController.swift */,
+				CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */,
+				CCC250211EB1E05E00F5A488 /* SwitchRowController.swift */,
+			);
+			name = TableRows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +381,7 @@
 				CCC00E7C1EAEC78400B442DF /* DetailRowController.swift in Sources */,
 				CCC00E781EAEC3A600B442DF /* GenericTableInterfaceController.swift in Sources */,
 				CC92236C1EB0DD5C00EE4F59 /* RootPageSource.swift in Sources */,
+				CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */,
 				BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
