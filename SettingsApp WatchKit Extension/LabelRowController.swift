@@ -2,7 +2,7 @@
 //  LabelRowController.swift
 //  SettingsApp
 //
-//  Created by Ákos Radványi on 2017. 04. 22..
+//  Created by Joey Towbin on 2017. 04. 22..
 //  Copyright © 2017. requinsynergy. All rights reserved.
 //
 

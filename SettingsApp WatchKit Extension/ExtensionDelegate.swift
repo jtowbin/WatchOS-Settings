@@ -2,7 +2,7 @@
 //  ExtensionDelegate.swift
 //  SettingsApp WatchKit Extension
 //
-//  Created by Ákos Radványi on 2017. 04. 26..
+//  Created by Joey Towbin on 2017. 04. 26..
 //  Copyright © 2017. Example. All rights reserved.
 //
 
