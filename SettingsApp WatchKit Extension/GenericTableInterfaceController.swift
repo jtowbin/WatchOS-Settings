@@ -192,6 +192,9 @@ class GenericTableInterfaceController: WKInterfaceController {
             case .PasscodeRowController:
                 let row = tableController.rowController(at: index) as! PasscodeRowController
                 break
+            case .TimeTableRowController:
+                let row = tableController.rowController(at: index) as! TimeTableRowController
+                break
             }
             
             
