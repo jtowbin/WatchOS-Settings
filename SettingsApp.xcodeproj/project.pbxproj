@@ -24,6 +24,7 @@
 		CC17CE8B1EB279A500FB3352 /* OrientationRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE8A1EB279A500FB3352 /* OrientationRowController.swift */; };
 		CC17CE8D1EB39B9D00FB3352 /* GlobalCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE8C1EB39B9D00FB3352 /* GlobalCommunicator.swift */; };
 		CC17CE921EB3CF3D00FB3352 /* WakeScreenRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE911EB3CF3D00FB3352 /* WakeScreenRowController.swift */; };
+		CC17CE941EB3D6D500FB3352 /* WristDetectionRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */; };
 		CC9223611EB0AE5F00EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
 		CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */; };
 		CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
@@ -110,6 +111,7 @@
 		CC17CE8C1EB39B9D00FB3352 /* GlobalCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalCommunicator.swift; sourceTree = "<group>"; };
 		CC17CE8E1EB3ABAA00FB3352 /* SettingsApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SettingsApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		CC17CE911EB3CF3D00FB3352 /* WakeScreenRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WakeScreenRowController.swift; sourceTree = "<group>"; };
+		CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristDetectionRowController.swift; sourceTree = "<group>"; };
 		CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataModel.swift; path = SettingsApp/AboutDataModel.swift; sourceTree = "<group>"; };
 		CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataStore.swift; path = "SettingsApp WatchKit Extension/AboutDataStore.swift"; sourceTree = "<group>"; };
 		CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInterfaceController.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				CCC2502B1EB2639100F5A488 /* PasscodeRowController.swift */,
 				CC17CE8A1EB279A500FB3352 /* OrientationRowController.swift */,
 				CC17CE911EB3CF3D00FB3352 /* WakeScreenRowController.swift */,
+				CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC17CE941EB3D6D500FB3352 /* WristDetectionRowController.swift in Sources */,
 				CCC00E7A1EAEC4C900B442DF /* SARowController.swift in Sources */,
 				CC9223731EB0F47300EE4F59 /* AboutPageSource.swift in Sources */,
 				CC17CE891EB26A9C00FB3352 /* TimeTableRowController.swift in Sources */,

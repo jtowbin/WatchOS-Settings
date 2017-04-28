@@ -96,6 +96,8 @@ class RootPageSource {
         wakePage.subPages = [wakeBtn]
         
         let wrdPage = WatchSettingsPage(title: "Wrist Detection", cell: .LabelRowController, optIconName: nil)
+        let wrdButton = WatchSettingsPage(title: "Wrist Detection", cell: .WristDetectionRowController, optIconName: nil)
+        wrdPage.subPages = [wrdButton]
         
         let nsPage = WatchSettingsPage(title: "Nightstand Mode", cell: .LabelRowController, optIconName: nil)
         

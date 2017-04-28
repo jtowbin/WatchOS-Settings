@@ -80,6 +80,34 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="WristDetectionRowController" id="CvH-ra-hDM" customClass="WristDetectionRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="iEs-Jr-y61">
+                                        <items>
+                                            <group width="1" height="30" alignment="left" radius="6" id="Ogf-Pe-33a">
+                                                <items>
+                                                    <group width="4" alignment="left" id="gt9-yj-Gxv"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Wrist Detec- tion" textAlignment="left" numberOfLines="2" id="lTT-g6-93B">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="cKk-Ff-rWs">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="AQL-49-xAR">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="If you're using a passcode, wrist detection locks your watch when you're not wearing it, so your information stays secure." textAlignment="left" numberOfLines="0" id="ket-zz-8Gh">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="WakeScreenRowController" id="aq3-Lh-XJF" customClass="WakeScreenRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="C0i-VE-nWv">
                                         <items>
