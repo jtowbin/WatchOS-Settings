@@ -117,11 +117,11 @@ class GenericTableInterfaceController: WKInterfaceController {
     }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
-        //pushController(withName: "InterfaceController", context: "Time")
         
+        /* Add back for debug screen:
         if pageContext?.pageTitle == "Settings" && rowIndex == 0 {
             pushController(withName: "InterfaceController", context: "Debug")
-        }
+        }*/
         if pageContext?.subPages == nil {
             return
         }
