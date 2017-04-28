@@ -48,8 +48,8 @@ class ViewController: UIViewController {
     
     //todo reduce duplication
     func updateFieldsFromStore(bundle: String) {
-      
-            let defaults = UserDefaults(suiteName: bundle)
+        let suitN = "group.com.requinsynergy.settingsapp"
+            let defaults = UserDefaults(suiteName: suitN)
             
             let adm = AboutDataModel()
             
