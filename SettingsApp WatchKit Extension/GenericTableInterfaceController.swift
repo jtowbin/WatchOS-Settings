@@ -8,9 +8,11 @@
 
 import UIKit
 import WatchKit
+import WatchConnectivity
 
 class GenericTableInterfaceController: WKInterfaceController {
     @IBOutlet var tableController: WKInterfaceTable!
+    var session : WCSession?
     
     let stringData = ["Time", "Do Not Disturb", "Airplane Mode", "General", "Brightness & Text Size"]
     let imageData = ["time", "sleep", "time", "general", "brightness"]
@@ -103,6 +105,10 @@ class GenericTableInterfaceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        self.session = WCSession.default()
+        self.session?.delegate = self
+        self.session?.activate()
     }
     
     override func didDeactivate() {
@@ -251,7 +257,28 @@ class GenericTableInterfaceController: WKInterfaceController {
             row.sublabelContent.setText(adataDict[headerKeys[index]])
         }
     }
+}
+
+// MARK: - WCSessionDelegate
+extension GenericTableInterfaceController : WCSessionDelegate {
     
     
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        
+    }
+    
+    func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
+        
+        let aboutT = AboutDataModel(dict: applicationContext)
+        GlobalCommunicator.shared.dataModel = aboutT
+   	}
+    
+    func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
+    
+   	}
     
 }
