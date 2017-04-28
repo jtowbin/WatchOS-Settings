@@ -32,6 +32,7 @@ class WatchSettingsPage {
         case PasscodeRowController
         case TimeTableRowController
         case OrientationRowController
+        case WakeScreenRowController
     }
     
     class func cellTypeToString(type: WatchSettingsCellType) -> String {
@@ -58,6 +59,8 @@ class WatchSettingsPage {
             return "TimeTableRowController"
         case .OrientationRowController:
             return "OrientationRowController"
+        case .WakeScreenRowController:
+            return "WakeScreenRowController"
         }
     }
 }

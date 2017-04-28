@@ -80,6 +80,126 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="WakeScreenRowController" id="aq3-Lh-XJF" customClass="WakeScreenRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="C0i-VE-nWv">
+                                        <items>
+                                            <group width="1" height="30" alignment="left" radius="6" id="ZHM-Tq-R4X">
+                                                <items>
+                                                    <group width="4" alignment="left" id="td9-hb-i9o"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Wake Screen on Wrist Raise" textAlignment="left" numberOfLines="2" id="4CL-eQ-23o">
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="mU3-Me-uOe">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="yKx-18-njx">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="When this is on, raising your wrist will wake the Apple Watch display." textAlignment="left" numberOfLines="0" id="WJy-gk-BGK">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="lqX-nN-dMy">
+                                                <items>
+                                                    <label alignment="left" text="ON SCREEN RAISE SHOW LAST APP" numberOfLines="0" id="bfK-Jk-EDh">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="94f-QG-UZy">
+                                                <items>
+                                                    <group width="4" alignment="left" id="5bc-9l-xWo"/>
+                                                    <label alignment="left" verticalAlignment="center" text="While in session" textAlignment="left" id="F3E-xW-0El">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="dEb-1V-Pm4">
+                                                <items>
+                                                    <group width="4" alignment="left" id="VWR-mY-cXP"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Within 8 Minutes of Last Use" textAlignment="left" numberOfLines="0" id="HJf-lR-4TF">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="Lzn-Qu-WL0">
+                                                <items>
+                                                    <group width="4" alignment="left" id="aCb-Zu-Aq2"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Within 1 Hour of Last Use" textAlignment="left" numberOfLines="0" id="zKv-XW-oln">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="NeI-qE-HqO">
+                                                <items>
+                                                    <group width="4" alignment="left" id="lwT-De-Ss2"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Always" textAlignment="left" id="ZCg-9O-hEt">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <imageView width="34" height="32" alignment="right" verticalAlignment="center" image="check" contentMode="scaleAspectFit" id="JHU-9d-ddw"/>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="B8K-mf-eR5">
+                                                <items>
+                                                    <label width="1" alignment="left" verticalAlignment="center" text="On wrist raise, Apple Watch will always display your last app or activity. " textAlignment="left" numberOfLines="0" id="14j-Za-9iv">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="WHl-kM-SLo">
+                                                <items>
+                                                    <label alignment="left" text="ON TAP" numberOfLines="0" id="fKt-qm-jvk">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="PmG-cr-I4o">
+                                                <items>
+                                                    <group width="4" alignment="left" id="sBE-Uv-lxa"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Wake for 15 Sec- onds" textAlignment="left" numberOfLines="0" id="EoP-JM-TPK">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="Y1e-zU-FC6">
+                                                <items>
+                                                    <group width="4" alignment="left" id="y4A-px-hCB"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Wake for 70 Seconds" textAlignment="left" numberOfLines="0" id="8YW-uJ-uab">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                    <imageView width="34" height="32" alignment="right" verticalAlignment="center" image="check" contentMode="scaleAspectFit" id="rBa-FO-nDe"/>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="IcC-Gh-koN">
+                                                <items>
+                                                    <label width="1" alignment="left" verticalAlignment="center" text="Choose how long the Apple Watch display stays on when you tap to wake it. " textAlignment="left" numberOfLines="0" id="lx5-sn-r5S">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="OrientationRowController" id="E0o-HU-DDe" customClass="OrientationRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="RcP-St-ZL8">
                                         <items>
