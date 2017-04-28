@@ -46,7 +46,8 @@ class ConnectivityHandler : NSObject, WCSessionDelegate {
     func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
         NSLog("didReceiveMessage: %@", message)
         if message["request"] as? String == "date" {
-            replyHandler(AboutDataStore.readStoreAboutData(bundle: "com.requinsynergy.SettingsApp").toDictionary())
+                
+         //   replyHandler(AboutDataStore.readStoreAboutData(bundle: "com.requinsynergy.SettingsApp").toDictionary())
             //["date" : "\(Date())"])
         }
     }

@@ -13,9 +13,9 @@ final class GlobalCommunicator {
     
     // Can't init is singleton
     private init() {
-        let budi = Bundle.main.bundleIdentifier!
-        NSLog("Watch bundle id: %@", budi)
-        dataModel = AboutDataStore.readStoreAboutData(bundle: budi)
+        let budi = AboutDataStore.appGroupName
+        NSLog("Watch app group id: %@", budi)
+        dataModel = AboutDataStore.readStoreAboutData()
     }
     
     // MARK: Shared Instance
@@ -26,7 +26,7 @@ final class GlobalCommunicator {
     
     var dataModel : AboutDataModel {
         didSet {
-            AboutDataStore.updateStoreAboutData(adm: dataModel, bundle: Bundle.main.bundleIdentifier!)
+            AboutDataStore.updateStoreAboutData(adm: dataModel)
         }
     }
     

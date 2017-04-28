@@ -47,23 +47,9 @@ class ViewController: UIViewController {
     }
     
     //todo reduce duplication
-    func updateFieldsFromStore(bundle: String) {
-        let suitN = "group.com.requinsynergy.settingsapp"
-            let defaults = UserDefaults(suiteName: suitN)
-            
-            let adm = AboutDataModel()
-            
-            adm.nameText = defaults?.string(forKey: "name") ?? "Apple Watch"
-            adm.songsText = defaults?.string(forKey: "songs") ?? "0"
-            adm.photosText = defaults?.string(forKey: "photos") ?? "0"
-            adm.applicationText = defaults?.string(forKey: "applications") ?? "0"
-            adm.capacityText = defaults?.string(forKey: "capacity") ?? "6 GB"
-            adm.availableText = defaults?.string(forKey: "available") ?? "4.5 GB"
-            adm.versionText = defaults?.string(forKey: "version") ?? "3.2 (14V243)"
-            adm.modelText = defaults?.string(forKey: "model") ?? "A1758"
-            adm.legalText = defaults?.string(forKey: "legal") ?? "Tap General > About > Legal in My Watch on the Apple Watch app on iPhone."
-            adm.serialText = defaults?.string(forKey: "serial") ?? "12345"
-        self.updateFieldsFromModel(admodel: adm)
+    func updateFieldsFromStore() {
+            let adm = (UIApplication.shared.delegate as? AppDelegate)?.aboutData
+            self.updateFieldsFromModel(admodel: adm!)
     }
     
     
@@ -85,7 +71,10 @@ class ViewController: UIViewController {
     
     
     func saveAboutChanges() {
-        AboutDataStore.updateStoreAboutData(adm: uiAboutModel(), bundle: "com.requinsynergy.SettingsApp")
+        let updatedData = uiAboutModel()
+        (UIApplication.shared.delegate as? AppDelegate)?.aboutData = updatedData
+        
+        AboutDataStore.updateStoreAboutData(adm: updatedData)
     }
     
     func updateFieldsFromModel(admodel: AboutDataModel) {
@@ -105,8 +94,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.connectivityHandler = (UIApplication.shared.delegate as? AppDelegate)?.connectivityHandler
         self.connectivityHandler?.addObserver(self, forKeyPath: "messages", options: [], context: nil)
+        self.updateFieldsFromModel(admodel: ((UIApplication.shared.delegate as? AppDelegate)?.aboutData)!)
         
-        self.updateFieldsFromStore(bundle: "com.requinsynergy.SettingsApp")
     }
 
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
