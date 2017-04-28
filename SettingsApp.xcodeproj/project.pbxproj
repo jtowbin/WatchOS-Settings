@@ -193,20 +193,36 @@
 		BF6F14DD1E4F3E240018D56E /* SettingsApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CC17CE901EB3BCCF00FB3352 /* Util */,
+				CC17CE8F1EB3BCB100FB3352 /* Interface Conrollers */,
 				CC17CE8E1EB3ABAA00FB3352 /* SettingsApp WatchKit Extension.entitlements */,
 				CCC250201EB1E03D00F5A488 /* TableRows */,
 				CC9223711EB0F41A00EE4F59 /* Page sources */,
-				BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */,
-				BF6F14E01E4F3E240018D56E /* ExtensionDelegate.swift */,
 				BF6F14E21E4F3E240018D56E /* Assets.xcassets */,
 				BF6F14E41E4F3E240018D56E /* Info.plist */,
-				CCC00E771EAEC3A600B442DF /* GenericTableInterfaceController.swift */,
-				CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */,
-				CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */,
-				CC92236D1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift */,
-				CC17CE8C1EB39B9D00FB3352 /* GlobalCommunicator.swift */,
 			);
 			path = "SettingsApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CC17CE8F1EB3BCB100FB3352 /* Interface Conrollers */ = {
+			isa = PBXGroup;
+			children = (
+				CCC00E771EAEC3A600B442DF /* GenericTableInterfaceController.swift */,
+				BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */,
+				CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */,
+				CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */,
+			);
+			name = "Interface Conrollers";
+			sourceTree = "<group>";
+		};
+		CC17CE901EB3BCCF00FB3352 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CC92236D1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift */,
+				CC17CE8C1EB39B9D00FB3352 /* GlobalCommunicator.swift */,
+				BF6F14E01E4F3E240018D56E /* ExtensionDelegate.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		CC9223641EB0B59F00EE4F59 /* Common */ = {

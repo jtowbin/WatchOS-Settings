@@ -12,10 +12,8 @@ class RootPageSource {
     //Start app: Settings page
     func getRootPage() -> WatchSettingsPage {
         let rootPage = WatchSettingsPage(title: "Settings", cell: .SARowController, optIconName: "Settings")
-        //let dbgPage = WatchSettingsPage(title: "Debug", cell: .SARowController, optIconName: "Debug")
-    
         
-        rootPage.subPages = [/*dbgPage, */RootPageSource.getTimePage(), RootPageSource.getAirplaneModePage(), RootPageSource.getBluetoothPage(), RootPageSource.getDNDPage(),  RootPageSource.getGeneralPage(), RootPageSource.getBrightnessPage(), RootPageSource.getHapticsPage(), RootPageSource.getPasscodePage()]
+        rootPage.subPages = [RootPageSource.getTimePage(), RootPageSource.getAirplaneModePage(), RootPageSource.getBluetoothPage(), RootPageSource.getDNDPage(),  RootPageSource.getGeneralPage(), RootPageSource.getBrightnessPage(), RootPageSource.getHapticsPage(), RootPageSource.getPasscodePage()]
         
         return rootPage
     }
