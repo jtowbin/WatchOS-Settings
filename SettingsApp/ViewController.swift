@@ -14,13 +14,6 @@ class ViewController: UIViewController {
 
     var connectivityHandler : ConnectivityHandler!
     var counter = 0
-    
-    @IBAction func sendMessage() {
-        counter += 1
-        connectivityHandler.session.sendMessage(["msg" : "Message \(counter)"], replyHandler: nil) { (error) in
-            NSLog("%@", "Error sending message: \(error)")
-        }
-    }
 
     @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var songsText: UITextField!
@@ -45,6 +38,13 @@ class ViewController: UIViewController {
         connectivityHandler.session.transferUserInfo((UIApplication.shared.delegate as! AppDelegate).aboutData.toDictionary()) //"com.requinsynergy.SettingsApp").toDictionary())
         //["msg" : "Message \(counter)"])
     }
+    
+    @IBAction func resetClicked(_ sender: Any) {
+        let adm = AboutDataModel()
+        updateFieldsFromModel(admodel: adm)
+        saveAboutChanges()
+    }
+    
     
     //todo reduce duplication
     func updateFieldsFromStore() {
@@ -98,18 +98,7 @@ class ViewController: UIViewController {
         
     }
 
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if keyPath == "messages" {
-            OperationQueue.main.addOperation {
-                self.updateMessages()
-            }
-        }
-    }
-
-    func updateMessages() {
-        self.messages.text = self.connectivityHandler.messages.joined(separator: "\n")
-    }
-
+   
     deinit {
         self.connectivityHandler?.removeObserver(self, forKeyPath: "messages")
     }
