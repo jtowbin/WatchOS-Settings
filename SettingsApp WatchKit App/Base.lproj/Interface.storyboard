@@ -83,26 +83,28 @@
                                 <tableRow identifier="OrientationRowController" id="E0o-HU-DDe" customClass="OrientationRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="RcP-St-ZL8">
                                         <items>
-                                            <label alignment="left" text="WRIST" id="9dr-kU-7WA">
+                                            <group width="1" height="3" alignment="left" id="uep-76-Lcq"/>
+                                            <label alignment="left" text=" WRIST" id="9dr-kU-7WA">
                                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                                <fontDescription key="font" type="system" pointSize="12"/>
                                             </label>
                                             <group width="1" alignment="left" layout="vertical" radius="6" id="bbd-c2-s9B">
                                                 <items>
-                                                    <group width="1" height="24" alignment="left" id="vEp-il-1La">
+                                                    <group width="1" height="30" alignment="left" id="vEp-il-1La">
                                                         <items>
                                                             <label alignment="left" verticalAlignment="center" text="  Left" textAlignment="left" id="lbk-AW-iBa">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
                                                             </label>
+                                                            <imageView width="34" height="32" alignment="right" verticalAlignment="center" image="check" contentMode="scaleAspectFit" id="gIU-Xf-kWc"/>
                                                         </items>
                                                     </group>
                                                     <group width="1" height="2" alignment="left" id="K4Y-Fd-zXQ">
                                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </group>
-                                                    <group width="1" height="24" alignment="left" id="5Ob-50-sjI">
+                                                    <group width="1" height="30" alignment="left" id="5Ob-50-sjI">
                                                         <items>
                                                             <label alignment="left" verticalAlignment="center" text="  Right" textAlignment="left" id="GDp-tB-C1W">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
                                                             </label>
                                                         </items>
                                                     </group>
@@ -110,34 +112,37 @@
                                                 <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </group>
                                             <group width="1" height="20" alignment="left" id="FC2-G2-Eaw"/>
-                                            <label alignment="left" text="DIGITAL CROWN" id="5KM-bp-ijF">
+                                            <label alignment="left" text=" DIGITAL CROWN" id="5KM-bp-ijF">
                                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="font" type="system" pointSize="11"/>
                                             </label>
                                             <group width="1" alignment="left" layout="vertical" radius="6" id="R5h-A2-mZD">
                                                 <items>
-                                                    <group width="1" height="24" alignment="left" id="zFN-OZ-Q5S">
+                                                    <group width="1" height="30" alignment="left" id="zFN-OZ-Q5S">
                                                         <items>
                                                             <label alignment="left" verticalAlignment="center" text="  Left" textAlignment="left" id="iD2-vc-O9b">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
                                                             </label>
                                                         </items>
                                                     </group>
                                                     <group width="1" height="2" alignment="left" id="04t-z8-6Fv">
                                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </group>
-                                                    <group width="1" height="24" alignment="left" id="dwL-uG-xHq">
+                                                    <group width="1" height="30" alignment="left" id="dwL-uG-xHq">
                                                         <items>
                                                             <label alignment="left" verticalAlignment="center" text="  Right" textAlignment="left" id="4PP-ze-SNX">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
                                                             </label>
+                                                            <imageView width="34" height="32" alignment="right" verticalAlignment="center" image="check" contentMode="scaleAspectFit" id="ah4-7U-ZZb"/>
                                                         </items>
                                                     </group>
                                                 </items>
                                                 <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </group>
+                                            <group width="1" height="12" alignment="left" id="GYY-Rn-FDm"/>
                                         </items>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                                     </group>
                                 </tableRow>
                                 <tableRow identifier="AboutPageRowController" id="C66-eV-5rm">
@@ -456,7 +461,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-254" y="-17"/>
+            <point key="canvasLocation" x="-254" y="-21.5"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.16862745098039217" green="0.58823529411764708" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
