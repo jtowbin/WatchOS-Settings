@@ -102,8 +102,10 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
 
         let aboutT = AboutDataModel(dict: applicationContext)
-        AboutDataStore().updateStoreAboutData(adm: aboutT, bundle: "com.requinsynergy.SettingsApp.watchkitapp")
-        let check = AboutDataStore().readStoreAboutData(bundle: "com.requinsynergy.SettingsApp.watchkitapp").toDictionary()
+        GlobalCommunicator.shared.dataModel = aboutT
+     //   AboutDataStore.updateStoreAboutData(adm: aboutT, bundle: "com.requinsynergy.SettingsApp.watchkitapp")
+        let check = GlobalCommunicator.shared.dataModel.toDictionary()
+        //AboutDataStore.readStoreAboutData(bundle: "com.requinsynergy.SettingsApp.watchkitapp").toDictionary()
         self.messages.append("AppContext \(aboutT.toDictionary())")
    	}
 

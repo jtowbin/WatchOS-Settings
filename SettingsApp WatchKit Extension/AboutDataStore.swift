@@ -9,7 +9,7 @@
 import UIKit
 
 class AboutDataStore: NSObject {
-    func readStoreAboutData(bundle: String) -> AboutDataModel {
+    class func readStoreAboutData(bundle: String) -> AboutDataModel {
         let defaults = UserDefaults(suiteName: bundle)
         
         let adm = AboutDataModel()
@@ -28,7 +28,7 @@ class AboutDataStore: NSObject {
         return adm
     }
     
-    func updateStoreAboutData(adm : AboutDataModel, bundle: String) {
+    class func updateStoreAboutData(adm : AboutDataModel, bundle: String) {
         let defaults = UserDefaults(suiteName: bundle)
         //"com.requinsynergy.SettingsApp.watchkitapp" - watch
         // - app

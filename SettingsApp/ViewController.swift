@@ -42,7 +42,7 @@ class ViewController: UIViewController {
 
     @IBAction func transferUserInfo() {
         counter += 1
-        connectivityHandler.session.transferUserInfo(AboutDataStore().readStoreAboutData(bundle: "com.requinsynergy.SettingsApp").toDictionary())
+        connectivityHandler.session.transferUserInfo((UIApplication.shared.delegate as! AppDelegate).aboutData.toDictionary()) //"com.requinsynergy.SettingsApp").toDictionary())
         //["msg" : "Message \(counter)"])
     }
     
@@ -85,9 +85,7 @@ class ViewController: UIViewController {
     
     
     func saveAboutChanges() {
-        let ads = AboutDataStore()
-        
-        ads.updateStoreAboutData(adm: uiAboutModel(), bundle: "com.requinsynergy.SettingsApp")
+        AboutDataStore.updateStoreAboutData(adm: uiAboutModel(), bundle: "com.requinsynergy.SettingsApp")
     }
     
     func updateFieldsFromModel(admodel: AboutDataModel) {

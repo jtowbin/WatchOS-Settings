@@ -14,6 +14,7 @@ class GenericTableInterfaceController: WKInterfaceController {
     
     let stringData = ["Time", "Do Not Disturb", "Airplane Mode", "General", "Brightness & Text Size"]
     let imageData = ["time", "sleep", "time", "general", "brightness"]
+    let communicator = GlobalCommunicator.shared
     
     var pageContext : WatchSettingsPage? = nil
     
@@ -158,7 +159,7 @@ class GenericTableInterfaceController: WKInterfaceController {
                                             withRowType: WatchSettingsPage.cellTypeToString(type: (subPArray[0].cellType)))
         }
         
-        let adata = AboutDataStore().readStoreAboutData(bundle: "com.requinsynergy.SettingsApp.watchkitapp")
+        let adata = GlobalCommunicator.shared.dataModel
         let adataDict = adata.toDictionary()
         
         for (index, page) in subPArray.enumerated() {
@@ -231,7 +232,7 @@ class GenericTableInterfaceController: WKInterfaceController {
     }
     
     func loadAboutData() {
-        let adata = AboutDataStore().readStoreAboutData(bundle: "com.requinsynergy.SettingsApp.watchkitapp")
+        let adata = GlobalCommunicator.shared.dataModel
         let adataDict = adata.toDictionary()
         
         let headers = ["Name", "Songs", "Photos", "Applications", "Capacity", "Available", "Version", "Serial Number", "Legal"]

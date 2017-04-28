@@ -14,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var connectivityHandler : ConnectivityHandler?
-
+    var aboutData: AboutDataModel = AboutDataStore.readStoreAboutData(bundle: "com.requinsynergy.SettingsApp")
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         if WCSession.isSupported() {
