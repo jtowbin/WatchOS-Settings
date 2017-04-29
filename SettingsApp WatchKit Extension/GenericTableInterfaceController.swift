@@ -228,6 +228,8 @@ class GenericTableInterfaceController: WKInterfaceController {
                 break
             case .RegulatoryRowController:
                 break
+            case .ResetRowController:
+                break
             }
             
             

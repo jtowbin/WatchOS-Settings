@@ -118,6 +118,8 @@ class RootPageSource {
         regPage.subPages = [regBtn]
         
         let resetPage = WatchSettingsPage(title: "Reset", cell: .LabelRowController, optIconName: nil)
+        let resetBtn = WatchSettingsPage(title: "Reset", cell: .ResetRowController, optIconName: nil)
+        resetPage.subPages = [resetBtn]
         
         generalPage.subPages = [AboutPageSource.getAboutPage(), oriPage, wakePage, wrdPage, nsPage, accessPage, siriPage, regPage, resetPage]
         

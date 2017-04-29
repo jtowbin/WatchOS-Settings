@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SettingsApp WatchKit Extension/GenericTableInterfaceController.swift"
-            timestampString = "515167617.417059"
+            timestampString = "515168092.643921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "289"
-            endingLineNumber = "289"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
             landmarkName = "session(_:didReceiveApplicationContext:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SettingsApp WatchKit Extension/GenericTableInterfaceController.swift"
-            timestampString = "515167617.417059"
+            timestampString = "515168092.643921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "241"
-            endingLineNumber = "241"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "loadTableData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SettingsApp WatchKit Extension/GenericTableInterfaceController.swift"
-            timestampString = "515167617.417059"
+            timestampString = "515168092.643921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "254"
-            endingLineNumber = "254"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "loadAboutData()"
             landmarkType = "7">
          </BreakpointContent>

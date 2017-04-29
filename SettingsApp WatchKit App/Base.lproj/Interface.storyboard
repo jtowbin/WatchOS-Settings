@@ -80,20 +80,30 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
-                                <tableRow identifier="RegulatoryRowController" id="qdY-ff-LmC" customClass="RegulatoryRowController" customModule="SettingsApp_WatchKit_Extension">
-                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="yac-dN-v94">
+                                <tableRow identifier="ResetRowController" id="JJ4-uk-7pG" customClass="ResetRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" spacing="0.0" id="myt-Up-Ysc">
                                         <items>
-                                            <imageView alignment="left" image="reg1" id="Axa-hz-dHZ"/>
-                                            <imageView alignment="left" image="reg2" id="uhk-Go-Qrm"/>
-                                            <imageView alignment="left" image="reg3" id="r35-yd-olh"/>
-                                            <imageView alignment="left" image="reg4" id="nNl-Ua-TH2"/>
-                                            <imageView alignment="left" image="reg5" id="MbY-Qc-7Xz"/>
-                                            <imageView alignment="left" image="reg6" id="A41-Zv-PTR"/>
-                                            <imageView alignment="left" image="reg7" id="07Y-pZ-CzN"/>
-                                            <imageView alignment="left" image="reg8" id="xQO-Wy-dEQ"/>
+                                            <group width="1" height="30" alignment="left" radius="6" id="9kp-Lw-x3g">
+                                                <items>
+                                                    <group width="4" alignment="left" id="Cpu-0Q-ipJ"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Erase All Content and Settings" textAlignment="left" numberOfLines="0" id="JQC-Vc-Ta3">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" alignment="left" radius="0.0" id="pl1-k3-QUL">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" textAlignment="left" numberOfLines="0" id="DSA-02-Uv2">
+                                                        <string key="text">Erasing will not remove Activation Lock, which prevents someone else from using this Apple Watch if it's lost or stolen. To remove Activation Lock, first unpair this Apple Watch before erasing it. </string>
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
                                         </items>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                                     </group>
                                 </tableRow>
                                 <tableRow identifier="SiriRowController" id="hkB-WO-JaI" customClass="SiriRowController" customModule="SettingsApp_WatchKit_Extension">
@@ -700,6 +710,22 @@
                                             </group>
                                         </items>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                </tableRow>
+                                <tableRow identifier="RegulatoryRowController" id="qdY-ff-LmC" customClass="RegulatoryRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="yac-dN-v94">
+                                        <items>
+                                            <imageView alignment="left" image="reg1" id="Axa-hz-dHZ"/>
+                                            <imageView alignment="left" image="reg2" id="uhk-Go-Qrm"/>
+                                            <imageView alignment="left" image="reg3" id="r35-yd-olh"/>
+                                            <imageView alignment="left" image="reg4" id="nNl-Ua-TH2"/>
+                                            <imageView alignment="left" image="reg5" id="MbY-Qc-7Xz"/>
+                                            <imageView alignment="left" image="reg6" id="A41-Zv-PTR"/>
+                                            <imageView alignment="left" image="reg7" id="07Y-pZ-CzN"/>
+                                            <imageView alignment="left" image="reg8" id="xQO-Wy-dEQ"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                                     </group>
                                 </tableRow>
                             </items>
