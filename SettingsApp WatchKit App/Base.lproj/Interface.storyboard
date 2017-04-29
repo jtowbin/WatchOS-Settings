@@ -121,12 +121,17 @@
                                                 </items>
                                                 <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </group>
-                                            <label alignment="center" verticalAlignment="center" text="Just say &quot;Hey Siri&quot; after waking Apple Watch. " textAlignment="left" numberOfLines="0" id="Weh-qh-NRE">
-                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="font" type="system" pointSize="10"/>
-                                            </label>
+                                            <group width="1" alignment="left" id="R7T-ah-KBs">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="Just say &quot;Hey Siri&quot; after waking Apple Watch. " textAlignment="left" numberOfLines="0" id="Weh-qh-NRE">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                            </group>
                                         </items>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
                                     </group>
                                 </tableRow>
                                 <tableRow identifier="AccessibilityRowController" id="soW-Ej-csl" customClass="AccessibilityRowController" customModule="SettingsApp_WatchKit_Extension">
