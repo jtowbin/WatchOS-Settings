@@ -80,6 +80,44 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="AccessibilityRowController" id="soW-Ej-csl" customClass="AccessibilityRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="kFO-FZ-jOE">
+                                        <items>
+                                            <group width="1" alignment="left" id="MZa-1c-hRY">
+                                                <items>
+                                                    <label alignment="left" text="VISION" numberOfLines="0" id="gMW-W6-6UX">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" alignment="left" layout="vertical" radius="6" id="ZD1-W8-dX2">
+                                                <items>
+                                                    <label alignment="left" text="  Reduce Motion" id="FJQ-Ge-ZaM">
+                                                        <fontDescription key="font" type="system" pointSize="13"/>
+                                                    </label>
+                                                    <label alignment="left" text="   Off" numberOfLines="0" id="YOi-99-NhJ">
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="30" alignment="left" radius="6" id="gh9-Br-bqG">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="  On/Off labels" id="66Z-hA-rQ2">
+                                                        <fontDescription key="font" type="system" pointSize="13"/>
+                                                    </label>
+                                                    <imageView width="32" alignment="right" verticalAlignment="center" image="onoff" contentMode="scaleAspectFit" id="AsX-le-0Ms"/>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <group width="1" height="20" alignment="left" id="tzo-zM-q3z"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="NightstandModeRowController" id="iWy-Bv-1Sc" customClass="NightstandModeRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="qlv-WI-RYv">
                                         <items>

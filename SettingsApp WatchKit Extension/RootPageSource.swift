@@ -104,6 +104,10 @@ class RootPageSource {
         nsPage.subPages = [nsButton]
         
         let accessPage = WatchSettingsPage(title: "Accessibility", cell: .LabelRowController, optIconName: nil)
+        let acButton = WatchSettingsPage(title: "Accessibility", cell: .AccessibilityRowController, optIconName: nil)
+        accessPage.subPages = [acButton]
+        
+        
         let siriPage = WatchSettingsPage(title: "Siri", cell: .LabelRowController, optIconName: nil)
         let regPage = WatchSettingsPage(title: "Regulatory", cell: .LabelRowController, optIconName: nil)
         let resetPage = WatchSettingsPage(title: "Reset", cell: .LabelRowController, optIconName: nil)

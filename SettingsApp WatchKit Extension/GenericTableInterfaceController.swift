@@ -222,6 +222,8 @@ class GenericTableInterfaceController: WKInterfaceController {
             case .NightstandModeRowController:
                 //let row = tableController.rowController(at: index) as! NightstandModeRowController
                 break
+            case .AccessibilityRowController:
+                break
             }
             
             

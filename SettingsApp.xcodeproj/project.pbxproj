@@ -26,6 +26,7 @@
 		CC17CE921EB3CF3D00FB3352 /* WakeScreenRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE911EB3CF3D00FB3352 /* WakeScreenRowController.swift */; };
 		CC17CE941EB3D6D500FB3352 /* WristDetectionRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */; };
 		CC1841391EB4C74000E44AEF /* NightstandModeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1841381EB4C74000E44AEF /* NightstandModeRowController.swift */; };
+		CC18413B1EB4C9E500E44AEF /* AccessibilityRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18413A1EB4C9E500E44AEF /* AccessibilityRowController.swift */; };
 		CC9223611EB0AE5F00EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
 		CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */; };
 		CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
@@ -114,6 +115,7 @@
 		CC17CE911EB3CF3D00FB3352 /* WakeScreenRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WakeScreenRowController.swift; sourceTree = "<group>"; };
 		CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristDetectionRowController.swift; sourceTree = "<group>"; };
 		CC1841381EB4C74000E44AEF /* NightstandModeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightstandModeRowController.swift; sourceTree = "<group>"; };
+		CC18413A1EB4C9E500E44AEF /* AccessibilityRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityRowController.swift; sourceTree = "<group>"; };
 		CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataModel.swift; path = SettingsApp/AboutDataModel.swift; sourceTree = "<group>"; };
 		CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataStore.swift; path = "SettingsApp WatchKit Extension/AboutDataStore.swift"; sourceTree = "<group>"; };
 		CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInterfaceController.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				CC17CE911EB3CF3D00FB3352 /* WakeScreenRowController.swift */,
 				CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */,
 				CC1841381EB4C74000E44AEF /* NightstandModeRowController.swift */,
+				CC18413A1EB4C9E500E44AEF /* AccessibilityRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				CCC00E7C1EAEC78400B442DF /* DetailRowController.swift in Sources */,
 				CCC00E781EAEC3A600B442DF /* GenericTableInterfaceController.swift in Sources */,
 				CC92236C1EB0DD5C00EE4F59 /* RootPageSource.swift in Sources */,
+				CC18413B1EB4C9E500E44AEF /* AccessibilityRowController.swift in Sources */,
 				CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */,
 				BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */,
 				CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */,
