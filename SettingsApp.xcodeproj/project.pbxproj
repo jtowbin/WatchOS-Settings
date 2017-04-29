@@ -15,7 +15,6 @@
 		BF6F14CB1E4F3E240018D56E /* SettingsApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BF6F14CA1E4F3E240018D56E /* SettingsApp WatchKit App.app */; };
 		BF6F14D11E4F3E240018D56E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6F14CF1E4F3E240018D56E /* Interface.storyboard */; };
 		BF6F14DA1E4F3E240018D56E /* SettingsApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF6F14D91E4F3E240018D56E /* SettingsApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */; };
 		BF6F14E11E4F3E240018D56E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F14E01E4F3E240018D56E /* ExtensionDelegate.swift */; };
 		BF6F14E31E4F3E240018D56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6F14E21E4F3E240018D56E /* Assets.xcassets */; };
 		BF6F14F31E4F48190018D56E /* ConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F14F21E4F48190018D56E /* ConnectivityHandler.swift */; };
@@ -105,7 +104,6 @@
 		BF6F14D01E4F3E240018D56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		BF6F14D41E4F3E240018D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6F14D91E4F3E240018D56E /* SettingsApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SettingsApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		BF6F14E01E4F3E240018D56E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		BF6F14E21E4F3E240018D56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6F14E41E4F3E240018D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				CCC00E771EAEC3A600B442DF /* GenericTableInterfaceController.swift */,
-				BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */,
 				CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */,
 				CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */,
 			);
@@ -462,7 +459,6 @@
 				CC92236C1EB0DD5C00EE4F59 /* RootPageSource.swift in Sources */,
 				CC18413B1EB4C9E500E44AEF /* AccessibilityRowController.swift in Sources */,
 				CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */,
-				BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */,
 				CCC250241EB1F21200F5A488 /* SpinnerButtonRow.swift in Sources */,
 				CCC2502A1EB2086A00F5A488 /* SoundRowController.swift in Sources */,
 				CCC250281EB200CE00F5A488 /* BrightnessRowController.swift in Sources */,
