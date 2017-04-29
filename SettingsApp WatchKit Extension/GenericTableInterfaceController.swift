@@ -224,6 +224,10 @@ class GenericTableInterfaceController: WKInterfaceController {
                 break
             case .AccessibilityRowController:
                 break
+            case .SiriRowController:
+                break
+            case .RegulatoryRowController:
+                break
             }
             
             

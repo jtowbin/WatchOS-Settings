@@ -109,7 +109,14 @@ class RootPageSource {
         
         
         let siriPage = WatchSettingsPage(title: "Siri", cell: .LabelRowController, optIconName: nil)
+        let siriBtn = WatchSettingsPage(title: "Siri", cell: .SiriRowController, optIconName: nil)
+        siriPage.subPages = [siriBtn]
+        
+        
         let regPage = WatchSettingsPage(title: "Regulatory", cell: .LabelRowController, optIconName: nil)
+        let regBtn = WatchSettingsPage(title: "Regulatory", cell: .RegulatoryRowController, optIconName: nil)
+        regPage.subPages = [regBtn]
+        
         let resetPage = WatchSettingsPage(title: "Reset", cell: .LabelRowController, optIconName: nil)
         
         generalPage.subPages = [AboutPageSource.getAboutPage(), oriPage, wakePage, wrdPage, nsPage, accessPage, siriPage, regPage, resetPage]

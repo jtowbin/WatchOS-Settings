@@ -14,7 +14,6 @@
 		BF6F14C61E4F3E230018D56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6F14C41E4F3E230018D56E /* LaunchScreen.storyboard */; };
 		BF6F14CB1E4F3E240018D56E /* SettingsApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BF6F14CA1E4F3E240018D56E /* SettingsApp WatchKit App.app */; };
 		BF6F14D11E4F3E240018D56E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6F14CF1E4F3E240018D56E /* Interface.storyboard */; };
-		BF6F14D31E4F3E240018D56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6F14D21E4F3E240018D56E /* Assets.xcassets */; };
 		BF6F14DA1E4F3E240018D56E /* SettingsApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF6F14D91E4F3E240018D56E /* SettingsApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BF6F14DF1E4F3E240018D56E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */; };
 		BF6F14E11E4F3E240018D56E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F14E01E4F3E240018D56E /* ExtensionDelegate.swift */; };
@@ -27,6 +26,9 @@
 		CC17CE941EB3D6D500FB3352 /* WristDetectionRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */; };
 		CC1841391EB4C74000E44AEF /* NightstandModeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1841381EB4C74000E44AEF /* NightstandModeRowController.swift */; };
 		CC18413B1EB4C9E500E44AEF /* AccessibilityRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18413A1EB4C9E500E44AEF /* AccessibilityRowController.swift */; };
+		CC18413D1EB4CC9200E44AEF /* SiriRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18413C1EB4CC9200E44AEF /* SiriRowController.swift */; };
+		CC18413F1EB4D3B800E44AEF /* RegulatoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18413E1EB4D3B800E44AEF /* RegulatoryRowController.swift */; };
+		CC1841411EB4D5A400E44AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1841401EB4D5A400E44AEF /* Assets.xcassets */; };
 		CC9223611EB0AE5F00EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
 		CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */; };
 		CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
@@ -100,7 +102,6 @@
 		BF6F14C71E4F3E230018D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6F14CA1E4F3E240018D56E /* SettingsApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SettingsApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6F14D01E4F3E240018D56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		BF6F14D21E4F3E240018D56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6F14D41E4F3E240018D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6F14D91E4F3E240018D56E /* SettingsApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SettingsApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6F14DE1E4F3E240018D56E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -116,6 +117,9 @@
 		CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristDetectionRowController.swift; sourceTree = "<group>"; };
 		CC1841381EB4C74000E44AEF /* NightstandModeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightstandModeRowController.swift; sourceTree = "<group>"; };
 		CC18413A1EB4C9E500E44AEF /* AccessibilityRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityRowController.swift; sourceTree = "<group>"; };
+		CC18413C1EB4CC9200E44AEF /* SiriRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriRowController.swift; sourceTree = "<group>"; };
+		CC18413E1EB4D3B800E44AEF /* RegulatoryRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegulatoryRowController.swift; sourceTree = "<group>"; };
+		CC1841401EB4D5A400E44AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataModel.swift; path = SettingsApp/AboutDataModel.swift; sourceTree = "<group>"; };
 		CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataStore.swift; path = "SettingsApp WatchKit Extension/AboutDataStore.swift"; sourceTree = "<group>"; };
 		CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInterfaceController.swift; sourceTree = "<group>"; };
@@ -192,8 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				BF6F14CF1E4F3E240018D56E /* Interface.storyboard */,
-				BF6F14D21E4F3E240018D56E /* Assets.xcassets */,
 				BF6F14D41E4F3E240018D56E /* Info.plist */,
+				CC1841401EB4D5A400E44AEF /* Assets.xcassets */,
 			);
 			path = "SettingsApp WatchKit App";
 			sourceTree = "<group>";
@@ -269,6 +273,8 @@
 				CC17CE931EB3D6D500FB3352 /* WristDetectionRowController.swift */,
 				CC1841381EB4C74000E44AEF /* NightstandModeRowController.swift */,
 				CC18413A1EB4C9E500E44AEF /* AccessibilityRowController.swift */,
+				CC18413C1EB4CC9200E44AEF /* SiriRowController.swift */,
+				CC18413E1EB4D3B800E44AEF /* RegulatoryRowController.swift */,
 			);
 			name = TableRows;
 			sourceTree = "<group>";
@@ -396,7 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6F14D31E4F3E240018D56E /* Assets.xcassets in Resources */,
+				CC1841411EB4D5A400E44AEF /* Assets.xcassets in Resources */,
 				BF6F14D11E4F3E240018D56E /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,11 +448,13 @@
 				CC17CE8D1EB39B9D00FB3352 /* GlobalCommunicator.swift in Sources */,
 				CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */,
 				CC1841391EB4C74000E44AEF /* NightstandModeRowController.swift in Sources */,
+				CC18413F1EB4D3B800E44AEF /* RegulatoryRowController.swift in Sources */,
 				CC9223671EB0BB7900EE4F59 /* AboutInterfaceController.swift in Sources */,
 				CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */,
 				BF6F14E11E4F3E240018D56E /* ExtensionDelegate.swift in Sources */,
 				CCC00E7C1EAEC78400B442DF /* DetailRowController.swift in Sources */,
 				CCC00E781EAEC3A600B442DF /* GenericTableInterfaceController.swift in Sources */,
+				CC18413D1EB4CC9200E44AEF /* SiriRowController.swift in Sources */,
 				CC92236C1EB0DD5C00EE4F59 /* RootPageSource.swift in Sources */,
 				CC18413B1EB4C9E500E44AEF /* AccessibilityRowController.swift in Sources */,
 				CCC250221EB1E05E00F5A488 /* SwitchRowController.swift in Sources */,
