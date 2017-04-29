@@ -80,6 +80,30 @@
                     <items>
                         <table alignment="left" id="Iv3-4l-rZT">
                             <items>
+                                <tableRow identifier="NightstandModeRowController" id="iWy-Bv-1Sc" customClass="NightstandModeRowController" customModule="SettingsApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" radius="0.0" id="qlv-WI-RYv">
+                                        <items>
+                                            <group width="1" alignment="left" radius="6" id="WIz-Lc-aC6">
+                                                <items>
+                                                    <group width="4" alignment="left" id="Xsv-Ga-NM0"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Nightstand Mode" textAlignment="left" numberOfLines="2" id="PW7-ru-eoM">
+                                                        <fontDescription key="font" type="system" pointSize="13"/>
+                                                    </label>
+                                                    <switch width="30" height="18" alignment="right" verticalAlignment="center" semanticContentAttribute="spatial" value="YES" minimumScaleFactor="0.40000000000000002" id="M6C-Zw-GC8">
+                                                        <fontDescription key="font" type="system" pointSize="16"/>
+                                                    </switch>
+                                                </items>
+                                                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                            <label alignment="center" verticalAlignment="center" textAlignment="left" numberOfLines="0" id="JjY-kp-GTL">
+                                                <string key="text">You can use Apple Watch as a nightstand clock when it's charging on its side. In Nightstand Mode, the time is displayed horizontally and the screen gently brightens in the minutes leading up to an alarm set on your Apple Watch. </string>
+                                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="WristDetectionRowController" id="CvH-ra-hDM" customClass="WristDetectionRowController" customModule="SettingsApp_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="iEs-Jr-y61">
                                         <items>

@@ -196,28 +196,31 @@ class GenericTableInterfaceController: WKInterfaceController {
                 row.headerSpinner.setImageNamed("spinner")
                 break
             case .DNDRowController:
-                let row = tableController.rowController(at: index) as! DNDRowController
+                //let row = tableController.rowController(at: index) as! DNDRowController
                 break
             case .BrightnessRowController:
-                let row = tableController.rowController(at: index) as! BrightnessRowController
+                //let row = tableController.rowController(at: index) as! BrightnessRowController
                 break
             case .SoundRowController:
-                let row = tableController.rowController(at: index) as! SoundRowController
+                //let row = tableController.rowController(at: index) as! SoundRowController
                 break
             case .PasscodeRowController:
-                let row = tableController.rowController(at: index) as! PasscodeRowController
+                //let row = tableController.rowController(at: index) as! PasscodeRowController
                 break
             case .TimeTableRowController:
-                let row = tableController.rowController(at: index) as! TimeTableRowController
+                //let row = tableController.rowController(at: index) as! TimeTableRowController
                 break
             case .OrientationRowController:
-                let row = tableController.rowController(at: index) as! OrientationRowController
+                //let row = tableController.rowController(at: index) as! OrientationRowController
                 break
             case .WakeScreenRowController:
-                let row = tableController.rowController(at: index) as! WakeScreenRowController
+                //let row = tableController.rowController(at: index) as! WakeScreenRowController
                 break
             case .WristDetectionRowController:
-                let row = tableController.rowController(at: index) as! WristDetectionRowController
+                //let row = tableController.rowController(at: index) as! WristDetectionRowController
+                break
+            case .NightstandModeRowController:
+                //let row = tableController.rowController(at: index) as! NightstandModeRowController
                 break
             }
             
@@ -229,8 +232,6 @@ class GenericTableInterfaceController: WKInterfaceController {
     
     
     func loadTableData() {
-        //  tableController.setRowTypes(["SARowController", "DetailRowController", "LabelRowController"])
-        //rowControllerAtIndex
         tableController.setNumberOfRows(stringData.count,
                                         withRowType: "SARowController")
         

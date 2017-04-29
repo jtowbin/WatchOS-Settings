@@ -100,6 +100,8 @@ class RootPageSource {
         wrdPage.subPages = [wrdButton]
         
         let nsPage = WatchSettingsPage(title: "Nightstand Mode", cell: .LabelRowController, optIconName: nil)
+        let nsButton = WatchSettingsPage(title: "Nightstand Mode", cell: .NightstandModeRowController,     optIconName: nil)
+        nsPage.subPages = [nsButton]
         
         let accessPage = WatchSettingsPage(title: "Accessibility", cell: .LabelRowController, optIconName: nil)
         let siriPage = WatchSettingsPage(title: "Siri", cell: .LabelRowController, optIconName: nil)
