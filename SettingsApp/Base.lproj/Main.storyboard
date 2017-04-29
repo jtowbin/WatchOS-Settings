@@ -22,22 +22,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlb-uZ-6b1">
-                                <rect key="frame" x="0.0" y="20" width="375" height="300"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lfA-O8-ZKI">
-                                        <rect key="frame" x="10" y="0.0" width="355" height="300"/>
+                                        <rect key="frame" x="10" y="0.0" width="355" height="400"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nA-9e-D36">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jK8-yy-XB0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Apple Watch" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MPD-vH-KH6">
-                                                        <rect key="frame" x="45" y="0.0" width="310" height="25"/>
+                                                        <rect key="frame" x="45" y="0.0" width="310" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -45,16 +45,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hL1-fj-O0o">
-                                                <rect key="frame" x="0.0" y="25" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="36.5" width="355" height="36"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tge-be-GnH">
-                                                        <rect key="frame" x="0.0" y="0.0" width="48.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="48.5" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-ca-S7V">
-                                                        <rect key="frame" x="48.5" y="0.0" width="306.5" height="25"/>
+                                                        <rect key="frame" x="48.5" y="0.0" width="306.5" height="36"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -62,16 +62,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mx3-hX-Wmg">
-                                                <rect key="frame" x="0.0" y="50" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="72.5" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K63-ky-Akk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qoc-Ja-Jbf">
-                                                        <rect key="frame" x="54" y="0.0" width="301" height="25"/>
+                                                        <rect key="frame" x="54" y="0.0" width="301" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -79,16 +79,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tL-UD-T4p">
-                                                <rect key="frame" x="0.0" y="75" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="109" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Applications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enQ-ex-w69">
-                                                        <rect key="frame" x="0.0" y="0.0" width="94.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="94.5" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mkD-yV-IoI">
-                                                        <rect key="frame" x="94.5" y="0.0" width="260.5" height="25"/>
+                                                        <rect key="frame" x="94.5" y="0.0" width="260.5" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -96,16 +96,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhG-hZ-VnK">
-                                                <rect key="frame" x="0.0" y="100" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="145.5" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capacity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GID-Oc-kHU">
-                                                        <rect key="frame" x="0.0" y="0.0" width="67.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="67.5" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="6 GB" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="76E-RF-23p">
-                                                        <rect key="frame" x="67.5" y="0.0" width="287.5" height="25"/>
+                                                        <rect key="frame" x="67.5" y="0.0" width="287.5" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -113,16 +113,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJY-vn-g9F">
-                                                <rect key="frame" x="0.0" y="125" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="182" width="355" height="36"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rC-Sk-fBL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="67.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="67.5" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4.5 GB" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YT6-VI-P9h">
-                                                        <rect key="frame" x="67.5" y="0.0" width="287.5" height="25"/>
+                                                        <rect key="frame" x="67.5" y="0.0" width="287.5" height="36"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -130,16 +130,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N7y-1x-FJs">
-                                                <rect key="frame" x="0.0" y="150" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="218" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPf-iU-ezT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3.2 (14V243)" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VxR-G2-1cT">
-                                                        <rect key="frame" x="57" y="0.0" width="298" height="25"/>
+                                                        <rect key="frame" x="57" y="0.0" width="298" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -147,16 +147,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1O-ed-L2d">
-                                                <rect key="frame" x="0.0" y="175" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="254.5" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JJ-Lq-ORQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="A1758" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G5u-Cq-69C">
-                                                        <rect key="frame" x="47.5" y="0.0" width="307.5" height="25"/>
+                                                        <rect key="frame" x="47.5" y="0.0" width="307.5" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -164,16 +164,16 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Bp2-jh-xYq">
-                                                <rect key="frame" x="0.0" y="200" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="291" width="355" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Legal Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QO3-PB-rOo">
-                                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="36.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tap General &gt; About &gt; Legal in My Watch on the Apple Watch app on iPhone." borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dny-KI-Wrv">
-                                                        <rect key="frame" x="47.5" y="0.0" width="307.5" height="25"/>
+                                                        <rect key="frame" x="47.5" y="0.0" width="307.5" height="36.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -181,36 +181,41 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzq-ti-vlu">
-                                                <rect key="frame" x="0.0" y="225" width="355" height="25"/>
+                                                <rect key="frame" x="0.0" y="327.5" width="355" height="36"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyV-2M-Lks">
-                                                        <rect key="frame" x="0.0" y="0.0" width="43" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="43" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="12345" borderStyle="roundedRect" placeholder="Apple Watch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OgA-AS-FHi">
-                                                        <rect key="frame" x="43" y="0.0" width="312" height="25"/>
+                                                        <rect key="frame" x="43" y="0.0" width="312" height="36"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JI-zD-CLG">
-                                                <rect key="frame" x="0.0" y="250" width="355" height="25"/>
-                                                <state key="normal" title="Save and send update"/>
-                                                <connections>
-                                                    <action selector="updateAppContext" destination="BYZ-38-t0r" eventType="touchUpInside" id="fxT-Wh-f5w"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftJ-nK-iZV">
-                                                <rect key="frame" x="0.0" y="275" width="355" height="25"/>
-                                                <state key="normal" title="Reset to defaults"/>
-                                                <connections>
-                                                    <action selector="resetClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVA-OW-Nmi"/>
-                                                </connections>
-                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hbC-BW-7Pg">
+                                                <rect key="frame" x="0.0" y="363.5" width="355" height="36.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JI-zD-CLG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="177.5" height="36.5"/>
+                                                        <state key="normal" title="Save and send update"/>
+                                                        <connections>
+                                                            <action selector="updateAppContext" destination="BYZ-38-t0r" eventType="touchUpInside" id="fxT-Wh-f5w"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftJ-nK-iZV">
+                                                        <rect key="frame" x="177.5" y="0.0" width="177.5" height="36.5"/>
+                                                        <state key="normal" title="Reset to defaults"/>
+                                                        <connections>
+                                                            <action selector="resetClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVA-OW-Nmi"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -218,7 +223,7 @@
                                 <constraints>
                                     <constraint firstItem="lfA-O8-ZKI" firstAttribute="leading" secondItem="Qlb-uZ-6b1" secondAttribute="leading" constant="10" id="LTo-rE-Qxu"/>
                                     <constraint firstAttribute="trailing" secondItem="lfA-O8-ZKI" secondAttribute="trailing" constant="10" id="VgJ-Tx-cC4"/>
-                                    <constraint firstAttribute="height" constant="300" id="Zlb-cM-lfx"/>
+                                    <constraint firstAttribute="height" constant="400" id="Zlb-cM-lfx"/>
                                     <constraint firstAttribute="bottom" secondItem="lfA-O8-ZKI" secondAttribute="bottom" id="gCf-2G-BUH"/>
                                     <constraint firstItem="lfA-O8-ZKI" firstAttribute="top" secondItem="Qlb-uZ-6b1" secondAttribute="top" id="ik2-3v-t7l"/>
                                 </constraints>
