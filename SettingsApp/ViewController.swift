@@ -30,7 +30,10 @@ class ViewController: UIViewController {
     @IBAction func updateAppContext() {
         counter += 1
         saveAboutChanges()
-        try! connectivityHandler.session.updateApplicationContext(uiAboutModel().toDictionary())
+        try? connectivityHandler.session.updateApplicationContext(uiAboutModel().toDictionary())
+
+        //NSLog("No watch is paired")
+        
     }
 
     @IBAction func transferUserInfo() {

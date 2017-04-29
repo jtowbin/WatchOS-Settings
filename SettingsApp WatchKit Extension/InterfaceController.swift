@@ -43,7 +43,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
     @IBAction func updateAppContext() {
         counter += 1
-        try! session?.updateApplicationContext(["msg" : "Message \(counter)"])
+        try? session?.updateApplicationContext(["msg" : "Message \(counter)"])
     }
 
     @IBAction func transferUserInfo() {
