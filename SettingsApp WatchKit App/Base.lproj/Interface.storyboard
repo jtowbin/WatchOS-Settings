@@ -411,7 +411,7 @@
                                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="font" type="system" pointSize="11"/>
                                             </label>
-                                            <slider width="1" height="30" alignment="left" continuous="YES" value="15" maximum="17" steps="16" id="Hkk-Jx-oI2"/>
+                                            <slider width="1" height="30" alignment="left" continuous="YES" value="15" maximum="17" steps="16" minimumImage="vol_min" maximumImage="vol_max" id="Hkk-Jx-oI2"/>
                                             <group width="1" height="30" alignment="left" radius="6" id="NCS-Dq-6cm">
                                                 <items>
                                                     <label alignment="left" verticalAlignment="center" text="   Silent Mode" textAlignment="left" id="KEH-Kv-RzP">
@@ -436,7 +436,7 @@
                                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="font" type="system" pointSize="11"/>
                                             </label>
-                                            <slider width="1" height="30" alignment="left" value="2" maximum="2" steps="2" id="hp3-Ci-Tdg"/>
+                                            <slider width="1" height="30" alignment="left" value="2" maximum="2" steps="2" minimumImage="haptic_min" maximumImage="haptic_max" id="hp3-Ci-Tdg"/>
                                             <group width="1" height="30" alignment="left" radius="6" id="EGY-UK-UpC">
                                                 <items>
                                                     <group width="4" alignment="left" id="WN1-P9-t6a"/>
@@ -488,7 +488,7 @@
                                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="font" type="system" pointSize="11"/>
                                             </label>
-                                            <slider width="1" height="30" alignment="left" value="2" maximum="3" steps="3" id="Cx5-8C-44M"/>
+                                            <slider width="1" height="30" alignment="left" value="2" maximum="3" steps="3" minimumImage="br_min" maximumImage="br_max" id="Cx5-8C-44M"/>
                                             <group width="1" height="20" alignment="left" id="LjK-qO-Do5"/>
                                             <group width="1" height="30" alignment="left" radius="6" id="AtZ-0n-K3I">
                                                 <items>
