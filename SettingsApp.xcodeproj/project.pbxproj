@@ -32,7 +32,6 @@
 		CC9223611EB0AE5F00EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
 		CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */; };
 		CC9223651EB0B5B400EE4F59 /* AboutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */; };
-		CC9223671EB0BB7900EE4F59 /* AboutInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */; };
 		CC9223681EB0BEE800EE4F59 /* AboutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */; };
 		CC92236A1EB0DC7100EE4F59 /* WatchSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */; };
 		CC92236C1EB0DD5C00EE4F59 /* RootPageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC92236B1EB0DD5C00EE4F59 /* RootPageSource.swift */; };
@@ -122,7 +121,6 @@
 		CC1841421EB4D63500E44AEF /* ResetRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetRowController.swift; sourceTree = "<group>"; };
 		CC9223601EB0AE5F00EE4F59 /* AboutDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataModel.swift; path = SettingsApp/AboutDataModel.swift; sourceTree = "<group>"; };
 		CC9223621EB0B27A00EE4F59 /* AboutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutDataStore.swift; path = "SettingsApp WatchKit Extension/AboutDataStore.swift"; sourceTree = "<group>"; };
-		CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInterfaceController.swift; sourceTree = "<group>"; };
 		CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSettingsPage.swift; sourceTree = "<group>"; };
 		CC92236B1EB0DD5C00EE4F59 /* RootPageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageSource.swift; sourceTree = "<group>"; };
 		CC92236D1EB0E02C00EE4F59 /* KeyedLeafPageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedLeafPageButton.swift; sourceTree = "<group>"; };
@@ -220,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				CCC00E771EAEC3A600B442DF /* GenericTableInterfaceController.swift */,
-				CC9223661EB0BB7900EE4F59 /* AboutInterfaceController.swift */,
 				CC9223691EB0DC7100EE4F59 /* WatchSettingsPage.swift */,
 			);
 			name = "Interface Conrollers";
@@ -450,7 +447,6 @@
 				CCC00E7E1EAEC81500B442DF /* LabelRowController.swift in Sources */,
 				CC1841391EB4C74000E44AEF /* NightstandModeRowController.swift in Sources */,
 				CC18413F1EB4D3B800E44AEF /* RegulatoryRowController.swift in Sources */,
-				CC9223671EB0BB7900EE4F59 /* AboutInterfaceController.swift in Sources */,
 				CC9223631EB0B27A00EE4F59 /* AboutDataStore.swift in Sources */,
 				BF6F14E11E4F3E240018D56E /* ExtensionDelegate.swift in Sources */,
 				CCC00E7C1EAEC78400B442DF /* DetailRowController.swift in Sources */,

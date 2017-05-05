@@ -71,35 +71,7 @@ class GenericTableInterfaceController: WKInterfaceController {
         
         loadDynamicTableCells()
         return
-        
-        switch pageContext!.pageTitle {
-        case "About":
-            loadAboutData()
-        default:
-            loadTableData()
-        }
-        /*
-         if let val: String = context as? String {
-         if val == "About" {
-         loadAboutData()
-         }
-         else
-         {
-         loadTableData()
-         }
-         }
-         else
-         {
-         loadTableData()
-         }*/
-        /* if context == nil
-         {
-         loadTableData()
-         }
-         else
-         {
-         loadAboutData()
-         }*/
+       
     }
     
     override func willActivate() {
@@ -136,15 +108,6 @@ class GenericTableInterfaceController: WKInterfaceController {
         
         pushController(withName: "GenericTableInterfaceController", context: pageContext!.subPages?[rowIndex])
         
-        switch rowIndex {
-        case 0:
-            pushController(withName: "GenericTableInterfaceController", context: pageContext!.subPages?[rowIndex])
-            // case 1:
-        //   pushController(withName: "AirplaneModeInterfaceController", context: "AirplaneMode")
-        default:
-            pushController(withName: "InterfaceController", context: "Debug")
-            
-        }
     }
     
     
@@ -238,40 +201,6 @@ class GenericTableInterfaceController: WKInterfaceController {
     }
     
     
-    
-    func loadTableData() {
-        tableController.setNumberOfRows(stringData.count,
-                                        withRowType: "SARowController")
-        
-        
-        for (index, labelText) in stringData.enumerated() {
-            let row = tableController.rowController(at: index)
-                as! SARowController
-            row.labelContent.setText(labelText)
-            row.imageContent.setImage(UIImage(named: imageData[index]))
-        }
-    }
-    
-    func loadAboutData() {
-        let adata = GlobalCommunicator.shared.dataModel
-        let adataDict = adata.toDictionary()
-        
-        let headers = ["Name", "Songs", "Photos", "Applications", "Capacity", "Available", "Version", "Serial Number", "Legal"]
-        
-        let headerKeys = ["name", "songs", "photos", "applications", "capacity", "available", "version", "serial", "legal"]
-        //  tableController.setRowTypes(["SARowController", "DetailRowController", "LabelRowController"])
-        //rowControllerAtIndex
-        tableController.setNumberOfRows(headers.count,
-                                        withRowType: "DetailRowController")
-        
-        
-        for (index, labelText) in headers.enumerated() {
-            let row = tableController.rowController(at: index)
-                as! DetailRowController
-            row.labelContent.setText(labelText)
-            row.sublabelContent.setText(adataDict[headerKeys[index]])
-        }
-    }
 }
 
 // MARK: - WCSessionDelegate

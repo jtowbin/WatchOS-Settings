@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func updateAppContext() {
-        counter += 1
         saveAboutChanges()
         try? connectivityHandler.session.updateApplicationContext(uiAboutModel().toDictionary())
 
@@ -49,7 +48,6 @@ class ViewController: UIViewController {
     }
     
     
-    //todo reduce duplication
     func updateFieldsFromStore() {
             let adm = (UIApplication.shared.delegate as? AppDelegate)?.aboutData
             self.updateFieldsFromModel(admodel: adm!)
