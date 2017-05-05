@@ -27,7 +27,7 @@ class AboutPageSource: NSObject {
     class func getAboutPage() -> WatchSettingsPage {
         let aboutPage = WatchSettingsPage(title: "About", cell: .LabelRowController, optIconName: nil)
         aboutPage.subPages = nil
-        
+        //the items of the about page. Static name in first line, from title. 2nd line uses the keyForText property, to display a value from the dictionary we got from iPhone.
         let nameButton = KeyedLeafPageButton(keyForText: "name", title: "Name")
         let songsButton = KeyedLeafPageButton(keyForText: "songs", title: "Songs")
         let photosButton = KeyedLeafPageButton(keyForText: "photos", title: "Photos")

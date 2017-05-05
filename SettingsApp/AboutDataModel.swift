@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//This is the data model for the about page data (or could be used for other pages, too). It's used to store and share data among the iPhone and WatchOS apps.
 class AboutDataModel {
     var nameText = "Apple Watch"
     var songsText = "0"
@@ -20,6 +20,8 @@ class AboutDataModel {
     var legalText = "Tap General > About > Legal in My Watch on the Apple Watch app on iPhone."
     var serialText = "123456"
     
+    
+    //You can see the diffent keys here, they are used as the textKey for the dynamic cells in the WatchOS app.
     func toDictionary() -> [String:String] {
         var ret = [String:String]()
         ret["name"] = nameText

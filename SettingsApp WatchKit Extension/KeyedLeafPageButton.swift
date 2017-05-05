@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//The cells of the about page are using this class. The 2nd rows are dynamically "translated" based on the textKey property.
 class KeyedLeafPageButton: WatchSettingsPage {
     var textKey : String = "name"
     

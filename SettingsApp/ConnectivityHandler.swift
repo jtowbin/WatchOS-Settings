@@ -10,6 +10,7 @@ import Foundation
 import WatchConnectivity
 import AudioToolbox
 
+//Handler for WCSessionDelegate
 class ConnectivityHandler : NSObject, WCSessionDelegate {
 
     var session = WCSession.default()

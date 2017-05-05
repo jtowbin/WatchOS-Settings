@@ -20,6 +20,7 @@ class WatchSettingsPage {
         cellType = cell
     }
     
+    //Here can we define the cell types which are used in the storyboard
     enum WatchSettingsCellType {
         case SARowController
         case DetailRowController
@@ -40,7 +41,7 @@ class WatchSettingsPage {
         case RegulatoryRowController
         case ResetRowController
     }
-    
+    //Give back the cell type-storyboard id "translations"
     class func cellTypeToString(type: WatchSettingsCellType) -> String {
         switch type {
         case .SARowController:

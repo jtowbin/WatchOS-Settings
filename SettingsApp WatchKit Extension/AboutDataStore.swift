@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
+//Loads and saves the customized data fields.
 class AboutDataStore: NSObject {
     
+    //This is the group id we set up in the project properties.
     static let appGroupName = "group.com.requinsynergy.settingsapp"
-    
+    //Reads the stored values, or if not present, returns defaults.
     class func readStoreAboutData() -> AboutDataModel {
         let defaults = UserDefaults(suiteName: AboutDataStore.appGroupName)
         
@@ -30,7 +31,7 @@ class AboutDataStore: NSObject {
         
         return adm
     }
-    
+    //Updates the stored values.
     class func updateStoreAboutData(adm : AboutDataModel) {
         let suitN = AboutDataStore.appGroupName
         

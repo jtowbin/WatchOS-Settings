@@ -9,15 +9,14 @@
 import UIKit
 import WatchKit
 import WatchConnectivity
-
+//This is the core of the app, using the dynamic and static cell prototypes.
 class GenericTableInterfaceController: WKInterfaceController {
     @IBOutlet var tableController: WKInterfaceTable!
     var session : WCSession?
     
-    let stringData = ["Time", "Do Not Disturb", "Airplane Mode", "General", "Brightness & Text Size"]
-    let imageData = ["time", "sleep", "time", "general", "brightness"]
+    //Reference for the singleton data store object
     let communicator = GlobalCommunicator.shared
-    
+    //Context of the current page. When the app starts, it's empty and will be set as the root node. After, we get it by navigation from the caller interface controller.
     var pageContext : WatchSettingsPage? = nil
     
     override func awake(withContext context: Any?) {
@@ -60,15 +59,18 @@ class GenericTableInterfaceController: WKInterfaceController {
          
          */
         if context == nil {
+            //this is the part, which runs at app start and loads the whole navigation tree
             pageContext = RootPageSource().getRootPage()
         }
         else {
+            
+            //this part runs, when we are in a subpage, navigated to from a higher level
             pageContext = context as? WatchSettingsPage
         }
         
         // Configure interface objects here.
         
-        
+        //call the table loader logic
         loadDynamicTableCells()
         return
        
@@ -77,7 +79,7 @@ class GenericTableInterfaceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
-        
+        //when we load the screen, we have to set up the watch connectivity session, and set it's delegate so we can receive the updates from the phone
         self.session = WCSession.default()
         self.session?.delegate = self
         self.session?.activate()
@@ -88,16 +90,21 @@ class GenericTableInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
+    
+    //This code handles navigation to subpages.
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         
         /* Add back for debug screen:
         if pageContext?.pageTitle == "Settings" && rowIndex == 0 {
             pushController(withName: "InterfaceController", context: "Debug")
         }*/
+        
+        //When no subpages are present, stop the navigation.
         if pageContext?.subPages == nil {
             return
         }
         
+        //When there are leaf nodes, we also won't navigate further.
         if rowIndex < (pageContext?.subPages?.count)! {
             if let sp = pageContext?.subPages?[rowIndex] {
                 if sp.subPages == nil {
@@ -105,14 +112,15 @@ class GenericTableInterfaceController: WKInterfaceController {
                 }
             }
         }
-        
+        //Otherwise, we push the subpage with it's context
         pushController(withName: "GenericTableInterfaceController", context: pageContext!.subPages?[rowIndex])
         
     }
     
     
-    
+    //load the cells
     func loadDynamicTableCells() {
+        //set up the title at the top of the watch
         self.setTitle(pageContext!.pageTitle)
         let currentContext = pageContext!
         let subPArray = currentContext.subPages ?? [WatchSettingsPage]()
@@ -123,17 +131,19 @@ class GenericTableInterfaceController: WKInterfaceController {
         }
         else
         {
-            
+            //We set up the number of rows of the table in advance, and the rowtype from the storyboard. One page can have only cells with the same rowtype!
             tableController.setNumberOfRows(currentContext.subPages!.count,
                                             withRowType: WatchSettingsPage.cellTypeToString(type: (subPArray[0].cellType)))
         }
         
+        //Get our about page dictionary (or can be used to localize/customize other pages later, if needed)
         let adata = GlobalCommunicator.shared.dataModel
         let adataDict = adata.toDictionary()
         
         for (index, page) in subPArray.enumerated() {
             switch page.cellType {
             case .DetailRowController:
+                //These are the items of the about page. We set the static title, and get the custom subtitle by the textKey property from the dictionary we received from the phone.
                 if page is KeyedLeafPageButton {
                     let row = tableController.rowController(at: index) as! DetailRowController
                     row.labelContent.setText(page.pageTitle)
@@ -158,6 +168,8 @@ class GenericTableInterfaceController: WKInterfaceController {
                 row.labelContent.setText(page.pageTitle)
                 row.headerSpinner.setImageNamed("spinner")
                 break
+                
+            //Other, static prototypes. I've added them here with examples, in case you want to add custom stuff later to them.
             case .DNDRowController:
                 //let row = tableController.rowController(at: index) as! DNDRowController
                 break
@@ -206,7 +218,7 @@ class GenericTableInterfaceController: WKInterfaceController {
 // MARK: - WCSessionDelegate
 extension GenericTableInterfaceController : WCSessionDelegate {
     
-    
+    //Watchkit session delegate functions, the context one is the important - it receives and stores the data from the phone.
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
     }

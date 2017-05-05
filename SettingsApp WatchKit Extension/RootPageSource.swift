@@ -8,6 +8,7 @@
 
 import UIKit
 
+//The main navigation hyerarchy.
 class RootPageSource {
     //Start app: Settings page
     func getRootPage() -> WatchSettingsPage {
@@ -24,6 +25,8 @@ class RootPageSource {
      Bluetooth
      Do Not Disturb*/
     
+    
+    //We create the subpages, and their children. The cell types here are the ones defined in the storyboard.
     class func getTimePage() -> WatchSettingsPage {
         let timePage = WatchSettingsPage(title: "Time", cell: .SARowController, optIconName: "clock")
         let timeBtn = WatchSettingsPage(title: "Time", cell: .TimeTableRowController, optIconName: nil)
@@ -84,6 +87,9 @@ class RootPageSource {
      - Reset
      */
     
+    
+    //The general page has the most content. Most cells have a static page as a subPage, displaying one static cell.
+    //About page has more children, you can see those in the relevant helper class.
     class func getGeneralPage() -> WatchSettingsPage {
         let generalPage = WatchSettingsPage(title: "General", cell: .SARowController, optIconName: "general")
         
@@ -121,6 +127,7 @@ class RootPageSource {
         let resetBtn = WatchSettingsPage(title: "Reset", cell: .ResetRowController, optIconName: nil)
         resetPage.subPages = [resetBtn]
         
+        //After creating the subpages, give them to the general page
         generalPage.subPages = [AboutPageSource.getAboutPage(), oriPage, wakePage, wrdPage, nsPage, accessPage, siriPage, regPage, resetPage]
         
         return generalPage

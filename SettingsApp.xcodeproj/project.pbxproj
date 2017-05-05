@@ -247,7 +247,6 @@
 			children = (
 				CC92236B1EB0DD5C00EE4F59 /* RootPageSource.swift */,
 				CC9223721EB0F47300EE4F59 /* AboutPageSource.swift */,
-				CC17CE881EB26A9C00FB3352 /* TimeTableRowController.swift */,
 			);
 			name = "Page sources";
 			sourceTree = "<group>";
@@ -255,6 +254,7 @@
 		CCC250201EB1E03D00F5A488 /* TableRows */ = {
 			isa = PBXGroup;
 			children = (
+				CC17CE881EB26A9C00FB3352 /* TimeTableRowController.swift */,
 				CCC00E7D1EAEC81500B442DF /* LabelRowController.swift */,
 				CCC00E791EAEC4C900B442DF /* SARowController.swift */,
 				CCC00E7B1EAEC78400B442DF /* DetailRowController.swift */,

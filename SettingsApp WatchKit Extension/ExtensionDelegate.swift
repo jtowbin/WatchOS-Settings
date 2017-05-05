@@ -8,6 +8,8 @@
 
 import WatchKit
 
+
+//This class is responsible to handle the WKExtensionDelegate related funtions.
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidFinishLaunching() {

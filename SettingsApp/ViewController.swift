@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var legalText: UITextField!
     @IBOutlet weak var serialText: UITextField!
     
-    
+    //This is the function, which sends the info to the watch.
     @IBAction func updateAppContext() {
         saveAboutChanges()
         try? connectivityHandler.session.updateApplicationContext(uiAboutModel().toDictionary())
@@ -34,26 +34,22 @@ class ViewController: UIViewController {
         //NSLog("No watch is paired")
         
     }
-
-    @IBAction func transferUserInfo() {
-        counter += 1
-        connectivityHandler.session.transferUserInfo((UIApplication.shared.delegate as! AppDelegate).aboutData.toDictionary()) //"com.requinsynergy.SettingsApp").toDictionary())
-        //["msg" : "Message \(counter)"])
-    }
     
+    //Reset back the fields to their defaults, and save the changes.
     @IBAction func resetClicked(_ sender: Any) {
         let adm = AboutDataModel()
         updateFieldsFromModel(admodel: adm)
         saveAboutChanges()
     }
     
-    
+    //Update the UI from the saved settings
     func updateFieldsFromStore() {
             let adm = (UIApplication.shared.delegate as? AppDelegate)?.aboutData
             self.updateFieldsFromModel(admodel: adm!)
     }
     
     
+    //Get the data model from the updated UI
     func uiAboutModel() -> AboutDataModel {
         let adm = AboutDataModel()
         adm.nameText = nameText.text ?? "Apple Watch"
@@ -70,7 +66,7 @@ class ViewController: UIViewController {
         return adm
     }
     
-    
+    //Save and send changes to the watch
     func saveAboutChanges() {
         let updatedData = uiAboutModel()
         (UIApplication.shared.delegate as? AppDelegate)?.aboutData = updatedData
@@ -78,6 +74,7 @@ class ViewController: UIViewController {
         AboutDataStore.updateStoreAboutData(adm: updatedData)
     }
     
+    //Update UI helper function
     func updateFieldsFromModel(admodel: AboutDataModel) {
         nameText.text = admodel.nameText
         songsText.text = admodel.songsText
@@ -91,6 +88,8 @@ class ViewController: UIViewController {
         serialText.text = admodel.serialText
     }
 
+    
+    //When the view loads, we sign up for the watchkit events and update the UI from the store/defaults.
     override func viewDidLoad() {
         super.viewDidLoad()
         self.connectivityHandler = (UIApplication.shared.delegate as? AppDelegate)?.connectivityHandler
@@ -99,7 +98,7 @@ class ViewController: UIViewController {
         
     }
 
-   
+    //To prevent memory leak, we unsubscribe.
     deinit {
         self.connectivityHandler?.removeObserver(self, forKeyPath: "messages")
     }
